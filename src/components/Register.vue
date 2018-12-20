@@ -4,7 +4,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Add a Post</h5>
+            <h5 class="modal-title">Register</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true" @click="$emit('close')">&times;</span>
             </button>
@@ -12,12 +12,21 @@
           <div class="modal-body">
             <form>
               <div class="form-group">
-                <label for="post-title" class="col-form-label">Title:</label>
-                <input type="text" class="form-control" id="post-title" v-model="title">
+                <label for="username" class="col-form-label">Username</label>
+                <input type="text" class="form-control" id="username" v-model="username">
               </div>
               <div class="form-group">
-                <label for="content-text" class="col-form-label">Content:</label>
-                <textarea class="form-control" id="content-text" v-model="content"></textarea>
+                <label for="password" class="col-form-label">Password</label>
+                <input type="password" class="form-control" id="password" v-model="password">
+              </div>
+              <div class="form-group">
+                <label for="password-confirm" class="col-form-label">Confirm Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password-confirm"
+                  v-model="passwordConfirm"
+                >
               </div>
             </form>
           </div>
@@ -32,23 +41,19 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
-
 export default {
-  name: 'Post',
+  name: 'Register',
   data() {
     return {
-      title: '',
-      content: ''
+      username: '',
+      password: '',
+      passwordConfirm: ''
     }
-  },
-  methods: mapActions('posts', [
-    'addPost'
-  ])
+  }
 }
 </script>
 
-<style>
+<style scoped>
 .modal-mask {
   position: fixed;
   z-index: 9998;

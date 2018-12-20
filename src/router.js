@@ -1,21 +1,16 @@
-import Vue from "vue";
-import Router from "vue-router";
-import Posts from "@/components/Posts";
-import AddPost from "@/components/AddPost";
+import Vue from 'vue'
+import Router from 'vue-router'
+import Posts from '@/components/Posts'
+import AddPost from '@/components/AddPost'
 
-Vue.use(Router);
+Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: "/",
-      name: "home",
-      component: Posts
-    },
-    {
-      path: "/addpost",
-      name: "addpost",
-      component: AddPost
+      path: '/',
+      name: 'home',
+      components: [Posts, AddPost]
     }
   ]
-});
+})

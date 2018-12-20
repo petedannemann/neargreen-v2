@@ -1,10 +1,8 @@
 <template>
   <div id="app">
     <app-header></app-header>
-    <!-- <app-posts :posts="posts"></app-posts> -->
-    <router-link :to="{ name: 'home' }">Home</router-link>
-    <router-link :to="{ name: 'addpost' }">Add Post</router-link>
-    <router-view/>
+    <app-posts></app-posts>
+    <!-- <router-link :to="{ name: 'home' }">Home</router-link> -->
   </div>
 </template>
 
@@ -12,12 +10,13 @@
 </style>
 
 <script>
-import Header from "@/components/Header";
-// import Posts from "@/components/Posts";
+import Header from '@/components/Header'
+import Posts from '@/components/Posts'
 
 export default {
   components: {
-    appHeader: Header
+    appHeader: Header,
+    appPosts: Posts
     // appPosts: Posts
   }
 };
