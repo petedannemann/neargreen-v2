@@ -11,7 +11,7 @@
               <input type="text" class="form-control" placeholder="Search">
             </div>
           </form>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" v-if="status !== 'success'">
             <li class="dropdown">
               <a
                 href="#"
@@ -35,6 +35,20 @@
               </a>
             </li>
           </ul>
+          <ul class="nav navbar-nav navbar-right" v-else>
+            <li class="dropdown">
+              <a href="/profile" class="dropdown-toggle" data-toggle="dropdown">
+                <b>Logged in as {{ user.username }}</b>
+                <span class="caret"></span>
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" @click="logout">
+                <b>Logout</b>
+                <span class="caret"></span>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -52,6 +66,8 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 import Register from './Register'
 import Login from './Login'
 
@@ -60,6 +76,15 @@ export default {
     return {
       showRegisterModal: false,
       showLoginModal: false
+    }
+  },
+  computed: mapState({
+    status: state => state.auth.status,
+    user: state => state.auth.user
+  }),
+  methods: {
+    logout() {
+      this.$store.dispatch('auth/logout')
     }
   },
   components: {

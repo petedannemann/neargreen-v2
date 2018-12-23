@@ -23,7 +23,11 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" @click="$emit('close')">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              @click="login(username, password); $emit('close')"
+            >Login</button>
           </div>
         </div>
       </div>
@@ -38,6 +42,15 @@ export default {
     return {
       username: '',
       password: ''
+    }
+  },
+  methods: {
+    login(username, password) {
+      const payload = {
+        username,
+        password
+      }
+      this.$store.dispatch('auth/login', payload)
     }
   }
 }

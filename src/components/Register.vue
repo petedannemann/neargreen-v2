@@ -16,8 +16,12 @@
                 <input type="text" class="form-control" id="username" v-model="username">
               </div>
               <div class="form-group">
+                <label for="email" class="col-form-label">Email</label>
+                <input type="text" class="form-control" id="email" v-model="email">
+              </div>
+              <div class="form-group">
                 <label for="password" class="col-form-label">Password</label>
-                <input type="password" class="form-control" id="password" v-model="password">
+                <input type="password" class="form-control" id="password" v-model="password1">
               </div>
               <div class="form-group">
                 <label for="password-confirm" class="col-form-label">Confirm Password</label>
@@ -25,14 +29,18 @@
                   type="password"
                   class="form-control"
                   id="password-confirm"
-                  v-model="passwordConfirm"
+                  v-model="password2"
                 >
               </div>
             </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" @click="$emit('close')">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              @click="register(username, email, password1, password2); $emit('close')"
+            >Register</button>
           </div>
         </div>
       </div>
@@ -46,8 +54,20 @@ export default {
   data() {
     return {
       username: '',
-      password: '',
-      passwordConfirm: ''
+      email: '',
+      password1: '',
+      password2: ''
+    }
+  },
+  methods: {
+    register(username, email, password1, password2) {
+      const payload = {
+        username,
+        email,
+        password1,
+        password2
+      }
+      this.$store.dispatch('auth/register', payload)
     }
   }
 }

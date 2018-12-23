@@ -23,7 +23,11 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" @click="$emit('close')">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              @click="addPost(title, content); $emit('close')"
+            >Submit</button>
           </div>
         </div>
       </div>
@@ -32,8 +36,6 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
-
 export default {
   name: 'Post',
   data() {
@@ -42,9 +44,14 @@ export default {
       content: ''
     }
   },
-  methods: mapActions('posts', [
-    'addPost'
-  ])
+  methods: {
+    addPost(title, content) {
+      const payload = {
+        title, content
+      }
+      this.$store.dispatch('posts/addPost', payload)
+    }
+  }
 }
 </script>
 

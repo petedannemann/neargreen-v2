@@ -6,6 +6,7 @@ export default axios.create({
   timeout: 5000,
   headers: {
     'Content-Type': 'application/json',
-    'X-CSRFToken': Cookies.get('csrftoken')
+    'X-CSRFToken': Cookies.get('csrftoken'),
+    Authorization: `JWT ${localStorage.getItem('token')}`
   }
 })

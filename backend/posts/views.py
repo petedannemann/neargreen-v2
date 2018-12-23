@@ -12,7 +12,7 @@ class PostAPIView(mixins.CreateModelMixin, generics.ListAPIView):
 
     def get_queryset(self):
         qs = Post.objects.all()
-        query = self.request.GET.get("q")
+        query = self.request.GET.get('q')
         if query is not None:
             qs = qs.filter(
                     Q(title__icontains=query)|

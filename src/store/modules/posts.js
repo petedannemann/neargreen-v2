@@ -17,9 +17,14 @@ const actions = {
     })
   },
   addPost({ commit }, post) {
-    postService.addPost(post).then(() => {
-      commit('addPost', post)
-    })
+    postService
+      .addPost(post)
+      .then(() => {
+        commit('addPost', post)
+      })
+      .catch(err => {
+        console.log(err)
+      })
   },
   deletePost({ commit }, postId) {
     postService.deletePost(postId).then(() => {

@@ -16,7 +16,6 @@ class UserSerializer(UserDetailsSerializer):
 
         instance = super(UserSerializer, self).update(instance, validated_data)
 
-        # get and update user profile
         profile = instance.userprofile
         if profile_data and image:
             profile.image = image
