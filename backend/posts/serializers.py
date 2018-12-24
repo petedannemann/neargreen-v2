@@ -4,12 +4,11 @@ from .models import Post
 
 
 class PostSerializer(serializers.ModelSerializer):
-    url = serializers.SerializerMethodField(read_only=True)
+    user = serializers.StringRelatedField(many=False)
 
     class Meta:
         model = Post
         fields = [
-            'url',
             'pk',
             'user',
             'title',

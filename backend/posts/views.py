@@ -9,6 +9,7 @@ from .serializers import PostSerializer
 class PostAPIView(mixins.CreateModelMixin, generics.ListAPIView):
     lookup_field = 'pk'
     serializer_class = PostSerializer
+    permission_classes = [IsOwnerOrReadOnly]
 
     def get_queryset(self):
         qs = Post.objects.all()

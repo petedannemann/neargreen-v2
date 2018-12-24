@@ -5,7 +5,7 @@ from .models import Profile
 
 
 class UserSerializer(UserDetailsSerializer):
-    image = serializers.ImageField(source="profile.image")
+    image = serializers.ImageField()
 
     class Meta(UserDetailsSerializer.Meta):
         fields = UserDetailsSerializer.Meta.fields + ('image',)

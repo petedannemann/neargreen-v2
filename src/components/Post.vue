@@ -6,14 +6,14 @@
     <input
       type="submit"
       value="Delete"
-      v-if="post.user.username == user.username && post.user.username"
-      @click="deletePost(p.pk)"
+      v-if="post.user == user.username && post.user"
+      @click="deletePost(post.pk)"
     >
   </div>
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import { mapState } from 'vuex'
 
 export default {
   name: 'Post',
@@ -21,8 +21,10 @@ export default {
   computed: mapState({
     user: state => state.auth.user
   }),
-  methods: mapActions('posts', [
-    'deletePost'
-  ]),
+  methods: {
+    deletePost(postId) {
+      this.$store.dispatch('posts/deletePost', postId)
+    }
+  }
 }
 </script>

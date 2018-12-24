@@ -13,7 +13,7 @@ const actions = {
     authService
       .register(payload)
       .then(data => {
-        commit('authSuccess', { token: data.key, user: payload })
+        commit('authSuccess', { token: data.token, user: data.user })
       })
       .catch(err => {
         commit('authError')
@@ -24,7 +24,7 @@ const actions = {
     authService
       .login(payload)
       .then(data => {
-        commit('authSuccess', { token: data.key, user: payload })
+        commit('authSuccess', { token: data.token, user: data.user })
       })
       .catch(err => {
         commit('authError')
