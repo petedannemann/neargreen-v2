@@ -1,5 +1,4 @@
 import authService from '../../services/modules/auth-service'
-// import api from '../../services/api'
 import { reject } from 'assert'
 
 const state = {
@@ -32,7 +31,10 @@ const actions = {
       })
   },
   logout({ commit }) {
-    commit('logout')
+    authService
+      .logout()
+      .then(() => commit('logout'))
+      .catch(err => console.log(err))
   }
 }
 

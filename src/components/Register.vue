@@ -39,7 +39,7 @@
             <button
               type="button"
               class="btn btn-primary"
-              @click="register(username, email, password1, password2); $emit('close')"
+              @click="register(username, password1, password2, email); $emit('close')"
             >Register</button>
           </div>
         </div>
@@ -54,18 +54,18 @@ export default {
   data() {
     return {
       username: '',
-      email: '',
       password1: '',
-      password2: ''
+      password2: '',
+      email: ''
     }
   },
   methods: {
-    register(username, email, password1, password2) {
+    register(username, password1, password2, email) {
       const payload = {
         username,
-        email,
         password1,
-        password2
+        password2,
+        email
       }
       this.$store.dispatch('auth/register', payload)
     }
