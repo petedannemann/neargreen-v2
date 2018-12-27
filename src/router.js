@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Posts from '@/components/Posts'
+import Stores from '@/components/Stores'
 
 Vue.use(Router)
 
@@ -9,7 +9,7 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Posts
+      component: Stores
     }
   ]
 })

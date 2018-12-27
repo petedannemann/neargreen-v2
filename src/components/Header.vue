@@ -3,7 +3,7 @@
     <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Instamap</a>
+          <a class="navbar-brand" href="#">Neargreen</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-left" role="search">

@@ -39,15 +39,17 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'django.contrib.gis',
     # Third Party
     'rest_framework',
+    'rest_framework_gis',
     'rest_framework.authtoken',
     'rest_auth',
     'allauth',
     'allauth.account',
     'rest_auth.registration',
     # Custom Apps
-    'backend.posts',
+    'backend.stores',
     'backend.users',
 ]
 
@@ -91,10 +93,12 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.contrib.gis.db.backends.spatialite',
+        'NAME': 'db.sqlite3',
     }
 }
+
+SPATIALITE_LIBRARY_PATH = '/usr/local/lib/mod_spatialite.dylib'
 
 
 # Password validation
@@ -145,6 +149,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
     ),
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 25
 }
 
 REST_AUTH_SERIALIZERS = {

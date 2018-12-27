@@ -9,7 +9,11 @@ djangorestframework = "*"
 gunicorn = "*"
 whitenoise = "==4.0"
 dj-database-url = "*"
-psycopg2-binary = "*"
+django-rest-auth = {extras = ["with_social"],version = "*"}
+pillow = "*"
+djangorestframework-jwt = "*"
+pysqlite3 = "*"
+djangorestframework-gis = "*"
 
 [dev-packages]
 autopep8 = "*"

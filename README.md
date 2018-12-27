@@ -1,8 +1,8 @@
-# Instamap
+# Neargreen V2
 
 ## Goal
 
-Create an Instagram clone that geotags each post and displays your posts on a map
+Near Green is a web application that aims to make healthy food accessible to the city of Philadelphia.
 
 ## Features
 
@@ -35,13 +35,13 @@ $ yarn serve
 
 ## URL Routes
 
-`/` Index, displays all posts
+`/` Index, displays all stores
 
 ## API Routes
 
-`/api/posts` Display all posts
+`/api/stores` Display all stores
 
-`/api/post/<postid>` Display a specific post
+`/api/store/<storeid>` Display a specific store
 
 `/api/register` Register a profile
 

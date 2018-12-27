@@ -1,0 +1,5531 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 1,
+                "OFFICIAL_STORE_NAME": "1022 Marshall Enterprises, Inc",
+                "STORE_ADDRESS": "1022 N Marshall St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14773604327269,
+                    39.968628148099754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 2,
+                "OFFICIAL_STORE_NAME": "12th Street Food Mart",
+                "STORE_ADDRESS": "453 N 12th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15794610470499,
+                    39.96056780272741
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 3,
+                "OFFICIAL_STORE_NAME": "22nd St. Mini Market",
+                "STORE_ADDRESS": "2201 W Oxford St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17125619957054,
+                    39.97901730530514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 4,
+                "OFFICIAL_STORE_NAME": "26th and Clearfield Mini Mart",
+                "STORE_ADDRESS": "3101 N 26th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17256396917999,
+                    40.00257041498203
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 5,
+                "OFFICIAL_STORE_NAME": "26th Food Market",
+                "STORE_ADDRESS": "1800 N 26Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1769861700229,
+                    39.98276107565273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 6,
+                "OFFICIAL_STORE_NAME": "3 Espigas Bakery & Grocery",
+                "STORE_ADDRESS": "1009 Spring Garden St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15468470590591,
+                    39.96177756248499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 7,
+                "OFFICIAL_STORE_NAME": "3 J Food Market",
+                "STORE_ADDRESS": "3324 N 21st St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16385115419908,
+                    40.00539245282174
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 8,
+                "OFFICIAL_STORE_NAME": "3 Sisters #2",
+                "STORE_ADDRESS": "5356 Delancey Street",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22912979906197,
+                    39.95439292829746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 9,
+                "OFFICIAL_STORE_NAME": "3 Torres",
+                "STORE_ADDRESS": "1327 W Wishart St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15109864413905,
+                    40.000805821400476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 10,
+                "OFFICIAL_STORE_NAME": "3MNS Inc.",
+                "STORE_ADDRESS": "623 Fairmount Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14863821802096,
+                    39.96383632120147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 11,
+                "OFFICIAL_STORE_NAME": "49 Stop Supermarket",
+                "STORE_ADDRESS": "4847 Walnut St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.2189194705561,
+                    39.95619241766116
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 12,
+                "OFFICIAL_STORE_NAME": "51 Street Mini Market #1",
+                "STORE_ADDRESS": "1360 S 51st St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21643982534228,
+                    39.94016460199246
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 13,
+                "OFFICIAL_STORE_NAME": "58th St. & Delancey Food Market",
+                "STORE_ADDRESS": "5800 Delancey St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23812344215733,
+                    39.95550645486174
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 14,
+                "OFFICIAL_STORE_NAME": "7 Days Food Market",
+                "STORE_ADDRESS": "2462 N 29Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17943235434052,
+                    39.993425157581456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 15,
+                "OFFICIAL_STORE_NAME": "9th & Jackson Grocery",
+                "STORE_ADDRESS": "853 Jackson St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16116126345085,
+                    39.922067483740804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 16,
+                "OFFICIAL_STORE_NAME": "A A A Food Market, Inc",
+                "STORE_ADDRESS": "1700 Wallace St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19130"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16571098228829,
+                    39.965730559431655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 17,
+                "OFFICIAL_STORE_NAME": "A and L Deli Market Inc.",
+                "STORE_ADDRESS": "264 W Queen Ln",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19144"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1737350329493,
+                    40.02683646343046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 18,
+                "OFFICIAL_STORE_NAME": "A M Food Market",
+                "STORE_ADDRESS": "6572 Lansdowne Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19151"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.2514466754991,
+                    39.97464991994152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 19,
+                "OFFICIAL_STORE_NAME": "A&E Grocery",
+                "STORE_ADDRESS": "1300 W Porter St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16869818846853,
+                    39.91910175732235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 20,
+                "OFFICIAL_STORE_NAME": "Abreu Super Deli",
+                "STORE_ADDRESS": "6059 Castor Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19149"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.0812406704516,
+                    40.035403536001574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 21,
+                "OFFICIAL_STORE_NAME": "Adan Grocery",
+                "STORE_ADDRESS": "1643 W Diamond St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16048720458367,
+                    39.98528968738236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 22,
+                "OFFICIAL_STORE_NAME": "Ailyn Mini Market LLC",
+                "STORE_ADDRESS": "4600 N 11th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14295099040837,
+                    40.022356787321044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 23,
+                "OFFICIAL_STORE_NAME": "Almonte Grocery",
+                "STORE_ADDRESS": "1945 Poplar St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19130"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16894522327087,
+                    39.971421173465274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 24,
+                "OFFICIAL_STORE_NAME": "Almonte Mini Market",
+                "STORE_ADDRESS": "546 Van Kirk St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10156271766235,
+                    40.043342769449545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 25,
+                "OFFICIAL_STORE_NAME": "Alvarez Grocery",
+                "STORE_ADDRESS": "2565 N 30th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.18062567232718,
+                    39.995136972899374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 26,
+                "OFFICIAL_STORE_NAME": "Aman Food Market",
+                "STORE_ADDRESS": "5343 Market St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.2281168075052,
+                    39.960454877868585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 27,
+                "OFFICIAL_STORE_NAME": "Amancio Dollar Outlet",
+                "STORE_ADDRESS": "3101 Kensington Avenue",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11572489556193,
+                    39.99516499813707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 28,
+                "OFFICIAL_STORE_NAME": "Ana Grocery",
+                "STORE_ADDRESS": "1262 S 49th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21434454710794,
+                    39.94227707957802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 29,
+                "OFFICIAL_STORE_NAME": "Angela Mini Mart",
+                "STORE_ADDRESS": "5700 Chester Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22713965168491,
+                    39.93667706587288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 30,
+                "OFFICIAL_STORE_NAME": "Angelica Supermarket",
+                "STORE_ADDRESS": "5445 Baltimore Avenue",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23234637442323,
+                    39.94771411409909
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 31,
+                "OFFICIAL_STORE_NAME": "Arturo Rojas Multi-Service I, Inc",
+                "STORE_ADDRESS": "147 W Dauphin St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13409483517934,
+                    39.9851188125859
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 32,
+                "OFFICIAL_STORE_NAME": "Ascencios Grocery",
+                "STORE_ADDRESS": "1121 E Passyunk Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19147"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15679236872771,
+                    39.93530503175718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 33,
+                "OFFICIAL_STORE_NAME": "Associated Food Market",
+                "STORE_ADDRESS": "3120-28 W York St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1834130779952,
+                    39.99293624333242
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 34,
+                "OFFICIAL_STORE_NAME": "Azaan Grocery",
+                "STORE_ADDRESS": "1634 Mount Vernon St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19130"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16480435621541,
+                    39.96492595158611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 35,
+                "OFFICIAL_STORE_NAME": "B & J Supermarket",
+                "STORE_ADDRESS": "6530 Elmwood Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23068807753697,
+                    39.92191137486474
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 36,
+                "OFFICIAL_STORE_NAME": "Baez Mini Market Llc #1",
+                "STORE_ADDRESS": "412 Diamond St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1408548531962,
+                    39.982637793194776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 37,
+                "OFFICIAL_STORE_NAME": "Balbi Food Market",
+                "STORE_ADDRESS": "2865 N 8th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14450416376943,
+                    39.99527922798197
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 38,
+                "OFFICIAL_STORE_NAME": "Barbaro, Inc",
+                "STORE_ADDRESS": "2355 S Woodstock St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19145"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.18045986008046,
+                    39.92251975685895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 39,
+                "OFFICIAL_STORE_NAME": "Belgrade Delicatessen",
+                "STORE_ADDRESS": "1400 E Columbia Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19125"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13211299888523,
+                    39.97314938324311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 40,
+                "OFFICIAL_STORE_NAME": "Best of Both Worlds",
+                "STORE_ADDRESS": "2601 S 8th St",
+                "CDC_STORE_LEVEL": 2,
+                "CATEGORY": "Certification",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16104972287641,
+                    39.91683112049377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 41,
+                "OFFICIAL_STORE_NAME": "Bettys Grocery",
+                "STORE_ADDRESS": "2747 S 10Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16460766249298,
+                    39.9152879276969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 42,
+                "OFFICIAL_STORE_NAME": "Bills Deli",
+                "STORE_ADDRESS": "2000 Castor Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.09963903977703,
+                    40.00033847685655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 43,
+                "OFFICIAL_STORE_NAME": "Blanca Food Market",
+                "STORE_ADDRESS": "162 W Dauphin St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1348219706757,
+                    39.98512703927509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 44,
+                "OFFICIAL_STORE_NAME": "Bonifacio Grocery",
+                "STORE_ADDRESS": "701 E Ontario St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11669887646843,
+                    40.00014469070585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 45,
+                "OFFICIAL_STORE_NAME": "Bravo Supermarket",
+                "STORE_ADDRESS": "2440 W Norris St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17403223781422,
+                    39.9853897369614
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 46,
+                "OFFICIAL_STORE_NAME": "Brillante Mini Market",
+                "STORE_ADDRESS": "312 W Norris St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14018134313086,
+                    39.98101907032976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 47,
+                "OFFICIAL_STORE_NAME": "Brisita Grocery",
+                "STORE_ADDRESS": "2027 N 16th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15990805515841,
+                    39.984501384846254
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 48,
+                "OFFICIAL_STORE_NAME": "Brito Grocery",
+                "STORE_ADDRESS": "4729 N 3rd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13043369489759,
+                    40.023191394414766
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 49,
+                "OFFICIAL_STORE_NAME": "Brother's Grocery",
+                "STORE_ADDRESS": "1540 W Butler St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.153554468772,
+                    40.01114872804343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 50,
+                "OFFICIAL_STORE_NAME": "Brother's Mini Market",
+                "STORE_ADDRESS": "2012 Ridge Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16855811857675,
+                    39.97566554796535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 51,
+                "OFFICIAL_STORE_NAME": "C Food Market",
+                "STORE_ADDRESS": "2400 W Oxford St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17445463688667,
+                    39.979361730621726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 52,
+                "OFFICIAL_STORE_NAME": "Canemo Grocery",
+                "STORE_ADDRESS": "172 W Norris St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13601772551635,
+                    39.98047679724551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 53,
+                "OFFICIAL_STORE_NAME": "Casablanca Grocery",
+                "STORE_ADDRESS": "3257 Kensington Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11151262294867,
+                    39.997468603654205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 54,
+                "OFFICIAL_STORE_NAME": "Castor Discount",
+                "STORE_ADDRESS": "8011 Castor Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19152"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.0557455652981,
+                    40.06219942564782
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 55,
+                "OFFICIAL_STORE_NAME": "Cawley's Market",
+                "STORE_ADDRESS": "5616 Chew Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19138"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16336955237519,
+                    40.04453835710027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 56,
+                "OFFICIAL_STORE_NAME": "Cedar Food Market Inc.",
+                "STORE_ADDRESS": "600 S 52nd St",
+                "CDC_STORE_LEVEL": 2,
+                "CATEGORY": "Certification",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22693202245142,
+                    39.95046191957311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 57,
+                "OFFICIAL_STORE_NAME": "Cesar's Mini Market",
+                "STORE_ADDRESS": "5934 Race St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23887671825698,
+                    39.964873639033605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 58,
+                "OFFICIAL_STORE_NAME": "Charlie and Kim's Market",
+                "STORE_ADDRESS": "4922 Baltimore Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22231304012483,
+                    39.94800762300764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 59,
+                "OFFICIAL_STORE_NAME": "Christian Food Market",
+                "STORE_ADDRESS": "2243 Christian Street",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19146"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.18005961446248,
+                    39.94180682699292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 60,
+                "OFFICIAL_STORE_NAME": "Chuchu Mini Market",
+                "STORE_ADDRESS": "323 W Somerset St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13755836319274,
+                    39.99344205780263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 61,
+                "OFFICIAL_STORE_NAME": "City Food Market",
+                "STORE_ADDRESS": "1445 North 19th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16650713014455,
+                    39.9764529596601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 62,
+                "OFFICIAL_STORE_NAME": "Cleotilde Grocery",
+                "STORE_ADDRESS": "3339 Jasper St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10862117804453,
+                    39.99701917121212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 63,
+                "OFFICIAL_STORE_NAME": "Commissary Food Market",
+                "STORE_ADDRESS": "5255 Ridge Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19128"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21038845885697,
+                    40.01991298279154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 64,
+                "OFFICIAL_STORE_NAME": "Community Food Market Llc #1",
+                "STORE_ADDRESS": "2901 W Oxford St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1822298097782,
+                    39.980434637096835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 65,
+                "OFFICIAL_STORE_NAME": "Community Mini Market",
+                "STORE_ADDRESS": "6400 W Girard Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19151"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.24724486694268,
+                    39.970588518223444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 66,
+                "OFFICIAL_STORE_NAME": "Connie's Food Store",
+                "STORE_ADDRESS": "5153 Walnut St",
+                "CDC_STORE_LEVEL": 2,
+                "CATEGORY": "Certification",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22457851717475,
+                    39.95689629573177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 67,
+                "OFFICIAL_STORE_NAME": "Convenience Grocery",
+                "STORE_ADDRESS": "2015 S 12th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16579550373586,
+                    39.924684955934225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 68,
+                "OFFICIAL_STORE_NAME": "Coral 1, 2, 3 y Mas",
+                "STORE_ADDRESS": "301 West Somerset St.",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13700275095076,
+                    39.993364950762256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 69,
+                "OFFICIAL_STORE_NAME": "Corner Food Market",
+                "STORE_ADDRESS": "3401 N 16th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1553875242121,
+                    40.00513791369271
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 70,
+                "OFFICIAL_STORE_NAME": "Cottman Grocery",
+                "STORE_ADDRESS": "7417 Torresdale Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19136"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.03189169219552,
+                    40.03178617666829
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 71,
+                "OFFICIAL_STORE_NAME": "CR Grocery",
+                "STORE_ADDRESS": "2907 Kensington Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11997385259716,
+                    39.99282796036425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 72,
+                "OFFICIAL_STORE_NAME": "D & C Deli Grocery",
+                "STORE_ADDRESS": "543 E Thompson St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19125"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1284217508039,
+                    39.972695006820686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 73,
+                "OFFICIAL_STORE_NAME": "D & L Food Market",
+                "STORE_ADDRESS": "400 W Spencer St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12702338948688,
+                    40.043836037852635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 74,
+                "OFFICIAL_STORE_NAME": "D & R Food Market",
+                "STORE_ADDRESS": "1801 Orthodox St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19124"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.08163599513496,
+                    40.012754381398786
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 75,
+                "OFFICIAL_STORE_NAME": "D' Angela Mini Market",
+                "STORE_ADDRESS": "6663 Walker St.",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19135"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.05083662457581,
+                    40.02800467885514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 76,
+                "OFFICIAL_STORE_NAME": "Daily Bread",
+                "STORE_ADDRESS": "4620 Unruh Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19135"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.04706257578368,
+                    40.02476197213345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 77,
+                "OFFICIAL_STORE_NAME": "Dasani LLC",
+                "STORE_ADDRESS": "800 S 9th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19147"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15775103057713,
+                    39.93974815203892
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 78,
+                "OFFICIAL_STORE_NAME": "Dauphin Street Grocery & Deli",
+                "STORE_ADDRESS": "2267 North 19th St.",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16390754740443,
+                    39.98837945901874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 79,
+                "OFFICIAL_STORE_NAME": "De Los Santos Mini Mart",
+                "STORE_ADDRESS": "2300 N 25th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17373768773906,
+                    39.99020275020131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 80,
+                "OFFICIAL_STORE_NAME": "Delancey Food Market",
+                "STORE_ADDRESS": "5266 Delancey St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22744155264026,
+                    39.95418585479229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 81,
+                "OFFICIAL_STORE_NAME": "Dennis Grocery",
+                "STORE_ADDRESS": "2333 East Cambria St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11376283451531,
+                    39.985364658688866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 82,
+                "OFFICIAL_STORE_NAME": "Denny's Grocery",
+                "STORE_ADDRESS": "1943 W Westmoreland St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1614786097869,
+                    40.004395694366146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 83,
+                "OFFICIAL_STORE_NAME": "Deynaira Food Market",
+                "STORE_ADDRESS": "235 W Duncannon Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12785709002722,
+                    40.029864261010566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 84,
+                "OFFICIAL_STORE_NAME": "Diaz Grocery",
+                "STORE_ADDRESS": "140 E Wyoming Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12356483215768,
+                    40.02142974953932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 85,
+                "OFFICIAL_STORE_NAME": "Dilena Food Market",
+                "STORE_ADDRESS": "2975 Frankford Avenue",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1154463024739,
+                    39.990600640282175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 86,
+                "OFFICIAL_STORE_NAME": "Dios Prueba el Hombre #2",
+                "STORE_ADDRESS": "5736 Christian St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23876503959099,
+                    39.94881763796193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 87,
+                "OFFICIAL_STORE_NAME": "Dios Prueba el Hombre Grocery",
+                "STORE_ADDRESS": "901 S 58th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23970002206313,
+                    39.94740614179908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 88,
+                "OFFICIAL_STORE_NAME": "Double Star Food Mart",
+                "STORE_ADDRESS": "2562 Germantown Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14841729381557,
+                    39.9913176579652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 89,
+                "OFFICIAL_STORE_NAME": "Duran Grocery Store",
+                "STORE_ADDRESS": "1025 W Ruscomb St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19141"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14079952309271,
+                    40.028416824310625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 90,
+                "OFFICIAL_STORE_NAME": "Dynamic Dollar",
+                "STORE_ADDRESS": "6316 Woodland Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23219510718161,
+                    39.927037777313885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 91,
+                "OFFICIAL_STORE_NAME": "Eagle Super Food Market",
+                "STORE_ADDRESS": "2208 N Broad St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15629754921311,
+                    39.986477691258564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 92,
+                "OFFICIAL_STORE_NAME": "El Mayimbe Mini Market",
+                "STORE_ADDRESS": "4598 G St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11093180625977,
+                    40.01821657769834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 93,
+                "OFFICIAL_STORE_NAME": "El Rey Dominicano Super Market Inc",
+                "STORE_ADDRESS": "1724 S 5Th Street",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15421497194171,
+                    39.9265763241201
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 94,
+                "OFFICIAL_STORE_NAME": "El Rey Dominicano Supermarket II",
+                "STORE_ADDRESS": "2601 S 7Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15950393714816,
+                    39.916643808241325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 95,
+                "OFFICIAL_STORE_NAME": "El Soto Grocery Store Inc.",
+                "STORE_ADDRESS": "1649 South 15 Street",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19145"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17013377283546,
+                    39.93010717189852
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 96,
+                "OFFICIAL_STORE_NAME": "Elmwood Market",
+                "STORE_ADDRESS": "6731 Elmwood Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23376940713791,
+                    39.91984753113039
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 97,
+                "OFFICIAL_STORE_NAME": "Emerald Deli & Grocery",
+                "STORE_ADDRESS": "3234 Emerald St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11038198289653,
+                    39.99479319895511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 98,
+                "OFFICIAL_STORE_NAME": "Emilio Mini Market",
+                "STORE_ADDRESS": "600 E Westmoreland St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11898217812623,
+                    39.998825050613554
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 99,
+                "OFFICIAL_STORE_NAME": "Emmanuel Deli Grocery",
+                "STORE_ADDRESS": "145 W Cumberland",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13289457269508,
+                    39.98803298005931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 100,
+                "OFFICIAL_STORE_NAME": "Enmanuel Mini Market",
+                "STORE_ADDRESS": "3801 N Darien St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14185454964738,
+                    40.009729250818054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 101,
+                "OFFICIAL_STORE_NAME": "Espinal Grocery",
+                "STORE_ADDRESS": "5237 Laurens St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19144"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17612652748379,
+                    40.02355017103412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 102,
+                "OFFICIAL_STORE_NAME": "Estevez Food Market",
+                "STORE_ADDRESS": "1738 W Oxford St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16399706784908,
+                    39.978000328606065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 103,
+                "OFFICIAL_STORE_NAME": "Executive African Food & Fashion Center",
+                "STORE_ADDRESS": "6531 Woodland Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23521104668608,
+                    39.92503551221409
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 104,
+                "OFFICIAL_STORE_NAME": "Family M Mini Mart",
+                "STORE_ADDRESS": "1213 W Dauphin St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15264648712264,
+                    39.98751337132222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 105,
+                "OFFICIAL_STORE_NAME": "Fat Mom's",
+                "STORE_ADDRESS": "2600 E Ann Street",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10950627008332,
+                    39.98252480220994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 106,
+                "OFFICIAL_STORE_NAME": "Felix Grocery",
+                "STORE_ADDRESS": "3000 N 6th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14121810647389,
+                    39.99697179744089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 107,
+                "OFFICIAL_STORE_NAME": "Ferrer Grocery",
+                "STORE_ADDRESS": "658 E Hilton St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11767231079907,
+                    39.99761968091148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 108,
+                "OFFICIAL_STORE_NAME": "Filpo Grocery",
+                "STORE_ADDRESS": "440 W Indiana Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1386947569667,
+                    39.99656899011173
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 109,
+                "OFFICIAL_STORE_NAME": "Fior Mini Market",
+                "STORE_ADDRESS": "3064 N 7th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14262211243792,
+                    39.998367852919884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 110,
+                "OFFICIAL_STORE_NAME": "Four Jefferson Mini Market",
+                "STORE_ADDRESS": "1500 N 4Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14235203387847,
+                    39.97379928349808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 111,
+                "OFFICIAL_STORE_NAME": "Franchiany Food Market",
+                "STORE_ADDRESS": "3643 Frankford Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.09996718348965,
+                    39.998985665207584
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 112,
+                "OFFICIAL_STORE_NAME": "Frankford Deli Grocery",
+                "STORE_ADDRESS": "3501 Frankford Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10332364801539,
+                    39.99678985448054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 113,
+                "OFFICIAL_STORE_NAME": "Friendly Corner",
+                "STORE_ADDRESS": "664 E Cornwall St",
+                "CDC_STORE_LEVEL": 2,
+                "CATEGORY": "Certification",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11767118232608,
+                    39.99908503030039
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 114,
+                "OFFICIAL_STORE_NAME": "Front Street Grocery Store Inc",
+                "STORE_ADDRESS": "3123 N Front St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12941256696215,
+                    39.997609072527524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 115,
+                "OFFICIAL_STORE_NAME": "Fruit & Veggies to You",
+                "STORE_ADDRESS": "1945 S 9th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16091895706174,
+                    39.92484974472081
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 116,
+                "OFFICIAL_STORE_NAME": "Fruit And Produce Inc.",
+                "STORE_ADDRESS": "1916 Welsh Rd Ste 11",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19115"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.03749777484518,
+                    40.08144049704163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 117,
+                "OFFICIAL_STORE_NAME": "G and Ontario Grocery",
+                "STORE_ADDRESS": "3401 G St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1147310632737,
+                    39.99986477023278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 118,
+                "OFFICIAL_STORE_NAME": "G&F Grocery",
+                "STORE_ADDRESS": "2768 N 22nd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16738572384499,
+                    39.996720938609855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 119,
+                "OFFICIAL_STORE_NAME": "Garcia Grocery",
+                "STORE_ADDRESS": "315 E Ontario St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12411288750613,
+                    40.00110654115786
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 120,
+                "OFFICIAL_STORE_NAME": "George's Deli",
+                "STORE_ADDRESS": "4419 Princeton Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19135"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.04116043275796,
+                    40.03084232283993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 121,
+                "OFFICIAL_STORE_NAME": "Gil's Deli",
+                "STORE_ADDRESS": "4001 N 7Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13942575494771,
+                    40.012508120269686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 122,
+                "OFFICIAL_STORE_NAME": "Glorious International Store",
+                "STORE_ADDRESS": "7223 Rising Sun Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.08517955981549,
+                    40.06011148966393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 123,
+                "OFFICIAL_STORE_NAME": "Golden Bridge Grocery",
+                "STORE_ADDRESS": "551 N 10th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15434656683647,
+                    39.962254170165615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 124,
+                "OFFICIAL_STORE_NAME": "Gomez Grocery",
+                "STORE_ADDRESS": "2572 Frankford Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19125"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12450356283144,
+                    39.98479978886285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 125,
+                "OFFICIAL_STORE_NAME": "Gomez Grocery",
+                "STORE_ADDRESS": "6621 Lebanon Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19151"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.25301010588588,
+                    39.976389361229316
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 126,
+                "OFFICIAL_STORE_NAME": "Gomez Supermarket",
+                "STORE_ADDRESS": "4562 Wayne Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19144"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16283351908473,
+                    40.022702772523985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 127,
+                "OFFICIAL_STORE_NAME": "Good Neighbor Mini Mart",
+                "STORE_ADDRESS": "4837 Woodland Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21234086797175,
+                    39.94123962243301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 128,
+                "OFFICIAL_STORE_NAME": "Good Neighbor Supermarket",
+                "STORE_ADDRESS": "3701 Fairmount Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19104"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.19642397435396,
+                    39.96591474829696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 129,
+                "OFFICIAL_STORE_NAME": "Gregory Grocery",
+                "STORE_ADDRESS": "5027 Arch St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.221588933074,
+                    39.96125867804937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 130,
+                "OFFICIAL_STORE_NAME": "Guido's Mini Market",
+                "STORE_ADDRESS": "2314 S 12Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16670641805248,
+                    39.92099991635701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 131,
+                "OFFICIAL_STORE_NAME": "Ha Ha's Market",
+                "STORE_ADDRESS": "5035 N Broad St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19141"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14662669040935,
+                    40.03025994396463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 132,
+                "OFFICIAL_STORE_NAME": "Hamilton Express Deli LLC",
+                "STORE_ADDRESS": "3401 Hamilton St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19104"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.19130828120755,
+                    39.96222722202809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 133,
+                "OFFICIAL_STORE_NAME": "Hank's Deli",
+                "STORE_ADDRESS": "2300 E Clearfield",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10981965621204,
+                    39.988350938697295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 134,
+                "OFFICIAL_STORE_NAME": "Hernandez Grocery #1",
+                "STORE_ADDRESS": "118 E Tioga St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12764494051348,
+                    40.00300657324278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 135,
+                "OFFICIAL_STORE_NAME": "Herrera Grocery",
+                "STORE_ADDRESS": "3101 Rorer St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12057790545227,
+                    39.995853560002615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 136,
+                "OFFICIAL_STORE_NAME": "Higueyana Mini Market",
+                "STORE_ADDRESS": "426 W Cayuga St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13350949935578,
+                    40.01797139669272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 137,
+                "OFFICIAL_STORE_NAME": "HoHo Market",
+                "STORE_ADDRESS": "648 S 60th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.24301458006923,
+                    39.95148062865151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 138,
+                "OFFICIAL_STORE_NAME": "Ily Grocery Store",
+                "STORE_ADDRESS": "3101 Emerald St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11377176129713,
+                    39.992916652023446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 139,
+                "OFFICIAL_STORE_NAME": "Indiana Food Market",
+                "STORE_ADDRESS": "2952 N 5th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13940859988809,
+                    39.9959802496871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 140,
+                "OFFICIAL_STORE_NAME": "Indiana Joe's",
+                "STORE_ADDRESS": "2501 E Indiana Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10954812133798,
+                    39.98473059965241
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 141,
+                "OFFICIAL_STORE_NAME": "Indiana Mini Market",
+                "STORE_ADDRESS": "3001 N 26Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17290188269584,
+                    40.00106717361885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 142,
+                "OFFICIAL_STORE_NAME": "J & D Market",
+                "STORE_ADDRESS": "7200 Elmwood Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.24035531476419,
+                    39.91511715861179
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 143,
+                "OFFICIAL_STORE_NAME": "J & F Business",
+                "STORE_ADDRESS": "5921 Rising Sun Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10181726666711,
+                    40.04453774302066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 144,
+                "OFFICIAL_STORE_NAME": "J & J Deli Grocery",
+                "STORE_ADDRESS": "201 West Cambria St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13423048766867,
+                    39.994541324409035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 145,
+                "OFFICIAL_STORE_NAME": "J & J Grocery",
+                "STORE_ADDRESS": "2001 W Spencer St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19138"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15362291780578,
+                    40.04734022165418
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 146,
+                "OFFICIAL_STORE_NAME": "J & K Food Market",
+                "STORE_ADDRESS": "2001 Green Street",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19130"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17073232194952,
+                    39.96504134678222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 147,
+                "OFFICIAL_STORE_NAME": "J & S Fish and Fruit Market",
+                "STORE_ADDRESS": "5701 N 5th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13010179022793,
+                    40.03804519309145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 148,
+                "OFFICIAL_STORE_NAME": "Jaquez Mini Market",
+                "STORE_ADDRESS": "5535 Chester Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22525611003937,
+                    39.938118034252284
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 149,
+                "OFFICIAL_STORE_NAME": "Jennifer Grocery",
+                "STORE_ADDRESS": "4823 Chester Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21561842155106,
+                    39.94488887155144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 150,
+                "OFFICIAL_STORE_NAME": "Jerez Grocery",
+                "STORE_ADDRESS": "4056 N Darien St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1411326545688,
+                    40.013542769660944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 151,
+                "OFFICIAL_STORE_NAME": "Jhoanny Grocery",
+                "STORE_ADDRESS": "3130 F St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11755190552049,
+                    39.99655553884549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 152,
+                "OFFICIAL_STORE_NAME": "Joselin Groceries",
+                "STORE_ADDRESS": "2600 N 18th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16134302827365,
+                    39.99322506685527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 153,
+                "OFFICIAL_STORE_NAME": "Joselin Grocery",
+                "STORE_ADDRESS": "106 W Ontario St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12913570442078,
+                    40.00167049764812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 154,
+                "OFFICIAL_STORE_NAME": "Josie's Food Market",
+                "STORE_ADDRESS": "2554 S 9Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1625920330725,
+                    39.91765808715616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 155,
+                "OFFICIAL_STORE_NAME": "Josue Grocery",
+                "STORE_ADDRESS": "401 W Cumberland St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13903014438753,
+                    39.98882487441023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 156,
+                "OFFICIAL_STORE_NAME": "Joy & Smile Deli",
+                "STORE_ADDRESS": "5301 N 5th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13145438436553,
+                    40.03189155011188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 157,
+                "OFFICIAL_STORE_NAME": "Kailyn Grocery",
+                "STORE_ADDRESS": "253 E Rockland St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12035407330018,
+                    40.02425617918599
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 158,
+                "OFFICIAL_STORE_NAME": "L K Mini Market #1",
+                "STORE_ADDRESS": "2401 N 16th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1587411676888,
+                    39.98983892488732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 159,
+                "OFFICIAL_STORE_NAME": "L&M Food Market",
+                "STORE_ADDRESS": "4863 D St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11593757066926,
+                    40.02322844059598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 160,
+                "OFFICIAL_STORE_NAME": "La Bodega",
+                "STORE_ADDRESS": "1813 E Clearfield St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11541398472325,
+                    39.99481761734983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 161,
+                "OFFICIAL_STORE_NAME": "La Fuerza",
+                "STORE_ADDRESS": "1540 Wharton St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19146"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17043686206468,
+                    39.93448520674595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 162,
+                "OFFICIAL_STORE_NAME": "Ledesma Grocery",
+                "STORE_ADDRESS": "2023 E Ontario St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10618551061879,
+                    39.99627869326879
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 163,
+                "OFFICIAL_STORE_NAME": "Leema's Market",
+                "STORE_ADDRESS": "5010 Old York Rd",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19141"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14614530924764,
+                    40.02947112224501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 164,
+                "OFFICIAL_STORE_NAME": "Lee's Food Cart, Inc.",
+                "STORE_ADDRESS": "2401 N Front St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13184840590071,
+                    39.98634007210448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 165,
+                "OFFICIAL_STORE_NAME": "Lehigh Avenue Supermarket",
+                "STORE_ADDRESS": "2837 West Lehigh Avenue",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17806412012149,
+                    39.997032211710724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 166,
+                "OFFICIAL_STORE_NAME": "Liberty African Grocery",
+                "STORE_ADDRESS": "6629 Woodland Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23625119377529,
+                    39.92429740433826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 167,
+                "OFFICIAL_STORE_NAME": "Liberty Mini Market",
+                "STORE_ADDRESS": "1838 S 68th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.24280997285751,
+                    39.926379199577916
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 168,
+                "OFFICIAL_STORE_NAME": "Lin's Grocery Store",
+                "STORE_ADDRESS": "2746 S Darien St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1623535155174,
+                    39.914996967129134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 169,
+                "OFFICIAL_STORE_NAME": "Li'S Market",
+                "STORE_ADDRESS": "1201 Magee Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.08027008773425,
+                    40.04492614053328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 170,
+                "OFFICIAL_STORE_NAME": "Lisseth Grocery",
+                "STORE_ADDRESS": "313 W York St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13882628698178,
+                    39.98726844168822
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 171,
+                "OFFICIAL_STORE_NAME": "Lopez Grocery",
+                "STORE_ADDRESS": "3062 N 9th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14494873834505,
+                    39.99838048155551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 172,
+                "OFFICIAL_STORE_NAME": "Lopez Grocery",
+                "STORE_ADDRESS": "3539 Jasper St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10409084574582,
+                    39.99938639585307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 173,
+                "OFFICIAL_STORE_NAME": "Lora Mini Market",
+                "STORE_ADDRESS": "1920 W Susquehanna Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16489910657434,
+                    39.98738440045996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 174,
+                "OFFICIAL_STORE_NAME": "Los Amigos Market",
+                "STORE_ADDRESS": "1034 Foulkrod St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19124"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.09118683312238,
+                    40.02266987324172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 175,
+                "OFFICIAL_STORE_NAME": "Lucas Grocery",
+                "STORE_ADDRESS": "875 E Russell St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11305240292832,
+                    40.00021505874876
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 176,
+                "OFFICIAL_STORE_NAME": "Luzerne Food Market",
+                "STORE_ADDRESS": "1126 E Luzerne St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19124"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10600009633575,
+                    40.00809325453873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 177,
+                "OFFICIAL_STORE_NAME": "M & M Food Market",
+                "STORE_ADDRESS": "458 Markle St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19128"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21039920658792,
+                    40.02469501263295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 178,
+                "OFFICIAL_STORE_NAME": "M & U Mini Market",
+                "STORE_ADDRESS": "801 S 56th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23543276223967,
+                    39.94842829558441
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 179,
+                "OFFICIAL_STORE_NAME": "MAC Grocery",
+                "STORE_ADDRESS": "1854 Hart Ln",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12084947052521,
+                    39.9910106656402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 180,
+                "OFFICIAL_STORE_NAME": "Malyah Grocery",
+                "STORE_ADDRESS": "4669 G St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11057013135226,
+                    40.01932250878276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 181,
+                "OFFICIAL_STORE_NAME": "Mama Deli",
+                "STORE_ADDRESS": "2117 N 63rd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19151"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.24991180786563,
+                    39.988679442804546
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 182,
+                "OFFICIAL_STORE_NAME": "MAO Grocery",
+                "STORE_ADDRESS": "3050 Frankford Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11423886960822,
+                    39.9912001346005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 183,
+                "OFFICIAL_STORE_NAME": "Maria's Grocery",
+                "STORE_ADDRESS": "2863 N 5Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13959457361096,
+                    39.994614758913194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 184,
+                "OFFICIAL_STORE_NAME": "Marie's Grocery Store",
+                "STORE_ADDRESS": "1229 S 6th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19147"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15432572414964,
+                    39.932826022359336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 185,
+                "OFFICIAL_STORE_NAME": "Martinez Grocery",
+                "STORE_ADDRESS": "647 West Cambria St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14257317437438,
+                    39.99561882256667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 186,
+                "OFFICIAL_STORE_NAME": "Martinez Grocery",
+                "STORE_ADDRESS": "2000 S Beechwood St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19145"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.18198877154816,
+                    39.927196509681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 187,
+                "OFFICIAL_STORE_NAME": "Master St. Mini Mart",
+                "STORE_ADDRESS": "178 W Master St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13826350298253,
+                    39.972325783777734
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 188,
+                "OFFICIAL_STORE_NAME": "Medary Deli Grocery",
+                "STORE_ADDRESS": "2067 Medary Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19138"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15496242797681,
+                    40.050547623329145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 189,
+                "OFFICIAL_STORE_NAME": "Mema's Treats",
+                "STORE_ADDRESS": "1260 Oak Lane",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19126"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13838390034074,
+                    40.05476171109938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 190,
+                "OFFICIAL_STORE_NAME": "Mendoza Grocery",
+                "STORE_ADDRESS": "2066 N 2nd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13701609236165,
+                    39.981667120413974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 191,
+                "OFFICIAL_STORE_NAME": "Mi Tierra Food Market # 2",
+                "STORE_ADDRESS": "2750 A St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12876750637163,
+                    39.99192939538826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 192,
+                "OFFICIAL_STORE_NAME": "Michael Food Market",
+                "STORE_ADDRESS": "599 E Godfrey Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10317721501332,
+                    40.03927307379589
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 193,
+                "OFFICIAL_STORE_NAME": "Michelle Grocery",
+                "STORE_ADDRESS": "147 W Norris St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1350721517604,
+                    39.980441693320735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 194,
+                "OFFICIAL_STORE_NAME": "Michelle's Market",
+                "STORE_ADDRESS": "1501 S 13th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19147"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16592654263346,
+                    39.931400441282435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 195,
+                "OFFICIAL_STORE_NAME": "Mini Market Rodriguez",
+                "STORE_ADDRESS": "601 N 55Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19131"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23026652536188,
+                    39.969059287944134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 196,
+                "OFFICIAL_STORE_NAME": "Misnik's Deli",
+                "STORE_ADDRESS": "2530 E Allegheny Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10453540723044,
+                    39.98640346715912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 197,
+                "OFFICIAL_STORE_NAME": "Mohamed Halal's Center",
+                "STORE_ADDRESS": "4525 Walnut St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21252857117814,
+                    39.95540367314427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 198,
+                "OFFICIAL_STORE_NAME": "Morel Deli Market",
+                "STORE_ADDRESS": "1901 Waterloo St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1349780667053,
+                    39.97887941117845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 199,
+                "OFFICIAL_STORE_NAME": "Morgan's Fruits & Vegetables",
+                "STORE_ADDRESS": "1921 N 54Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19131"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23187340356557,
+                    39.98607429445988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 200,
+                "OFFICIAL_STORE_NAME": "Museum Market",
+                "STORE_ADDRESS": "1800 Spring Garden St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19130"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16789006571936,
+                    39.963174671462646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 201,
+                "OFFICIAL_STORE_NAME": "Nadia's Market Inc.",
+                "STORE_ADDRESS": "6201 Vine St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.24377247791924,
+                    39.96712616424987
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 202,
+                "OFFICIAL_STORE_NAME": "Natural Coffee Landmark Plus",
+                "STORE_ADDRESS": "715 S 52nd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22722472548224,
+                    39.94849293381142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 203,
+                "OFFICIAL_STORE_NAME": "Neighborhood Deli Grocery",
+                "STORE_ADDRESS": "5600 Chew Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19138"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.162752736391,
+                    40.044163519137214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 204,
+                "OFFICIAL_STORE_NAME": "New Life Food Market",
+                "STORE_ADDRESS": "2101 W York St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16697086776134,
+                    39.99089997805421
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 205,
+                "OFFICIAL_STORE_NAME": "New Shopexpress",
+                "STORE_ADDRESS": "6900 Old York Rd",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19126"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13910645891269,
+                    40.0580746312027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 206,
+                "OFFICIAL_STORE_NAME": "New York Deli",
+                "STORE_ADDRESS": "5656 N 5th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13037390342751,
+                    40.03734163609617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 207,
+                "OFFICIAL_STORE_NAME": "Nigerian African Food Market",
+                "STORE_ADDRESS": "4517 Baltimore Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21376438402558,
+                    39.949039795044975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 208,
+                "OFFICIAL_STORE_NAME": "Nina's Grocery & Variety",
+                "STORE_ADDRESS": "6306 Woodland Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23191420308368,
+                    39.927229483582266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 209,
+                "OFFICIAL_STORE_NAME": "Nuevo Amanecer Deli Supermarket",
+                "STORE_ADDRESS": "429 W Girard Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14415917161271,
+                    39.97014201362718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 210,
+                "OFFICIAL_STORE_NAME": "Nu\u00c3\u00b1es Grocery",
+                "STORE_ADDRESS": "617 W York St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14398200235497,
+                    39.98793547040324
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 211,
+                "OFFICIAL_STORE_NAME": "Nunez Grocery",
+                "STORE_ADDRESS": "3000 B St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12611103234332,
+                    39.994992598516376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 212,
+                "OFFICIAL_STORE_NAME": "Olivares Food Market",
+                "STORE_ADDRESS": "1718 Wharton St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19146"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17319409735319,
+                    39.93483867270483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 213,
+                "OFFICIAL_STORE_NAME": "P & R Grocery",
+                "STORE_ADDRESS": "4800 N 8th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13812708347149,
+                    40.0249967374588
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 214,
+                "OFFICIAL_STORE_NAME": "Papi's Mini Market",
+                "STORE_ADDRESS": "4201 Germantown Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15501672350256,
+                    40.01811520501328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 215,
+                "OFFICIAL_STORE_NAME": "Pat's Place",
+                "STORE_ADDRESS": "4200 Manayunk Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19128"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21562705297475,
+                    40.02621604078183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 216,
+                "OFFICIAL_STORE_NAME": "Pena Grocery",
+                "STORE_ADDRESS": "2139 E Chelten Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19138"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1569878701682,
+                    40.05197519275468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 217,
+                "OFFICIAL_STORE_NAME": "Pena Grocery #2",
+                "STORE_ADDRESS": "640 W Allegheny Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14170724598189,
+                    40.00011883123883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 218,
+                "OFFICIAL_STORE_NAME": "Pena Toribio Grocery",
+                "STORE_ADDRESS": "1901 E Tioga St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10511541662416,
+                    39.99887942567943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 219,
+                "OFFICIAL_STORE_NAME": "Pennsport Market",
+                "STORE_ADDRESS": "1425 E Moyamensing Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19147"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14993678531661,
+                    39.92986321300952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 220,
+                "OFFICIAL_STORE_NAME": "Peralta Food Market, Inc.",
+                "STORE_ADDRESS": "501 W Susquehanna Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14188108701406,
+                    39.984493330414274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 221,
+                "OFFICIAL_STORE_NAME": "Peralta Grocery",
+                "STORE_ADDRESS": "2400 W Allegheny Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16898475754847,
+                    40.00364009903633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 222,
+                "OFFICIAL_STORE_NAME": "Peralta Grocery",
+                "STORE_ADDRESS": "2916 Tulip St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11388131368774,
+                    39.98629306568967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 223,
+                "OFFICIAL_STORE_NAME": "Peralta Grocery",
+                "STORE_ADDRESS": "621 W Venango St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13991091523307,
+                    40.00621447200214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 224,
+                "OFFICIAL_STORE_NAME": "Peralta Julio Alberto",
+                "STORE_ADDRESS": "2981 Memphis St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11224624093077,
+                    39.986077502795936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 225,
+                "OFFICIAL_STORE_NAME": "Philamex Grocery Store Inc",
+                "STORE_ADDRESS": "1341 S 9th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19147"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15928001235166,
+                    39.932225366535974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 226,
+                "OFFICIAL_STORE_NAME": "Philly's Choice Deli",
+                "STORE_ADDRESS": "1422 West York St.",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15647377318638,
+                    39.98945806863138
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 227,
+                "OFFICIAL_STORE_NAME": "Philly's Food Market",
+                "STORE_ADDRESS": "4353 N 5Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13453708370257,
+                    40.01780329308068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 228,
+                "OFFICIAL_STORE_NAME": "Philly's Mini Market",
+                "STORE_ADDRESS": "2701 N Fairhill St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14145130798546,
+                    39.99231368069911
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 229,
+                "OFFICIAL_STORE_NAME": "Pirela Food Market",
+                "STORE_ADDRESS": "6600 Guyer Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22829763747613,
+                    39.91851311860749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 230,
+                "OFFICIAL_STORE_NAME": "PM Food Market Inc",
+                "STORE_ADDRESS": "61 N 52nd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22459407887091,
+                    39.96110313480846
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 231,
+                "OFFICIAL_STORE_NAME": "Point Breeze Supermarket",
+                "STORE_ADDRESS": "1426 Point Breeze Ave",
+                "CDC_STORE_LEVEL": null,
+                "CATEGORY": null,
+                "ZIP": "19146"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17994953544546,
+                    39.9341576507125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 232,
+                "OFFICIAL_STORE_NAME": "Polo Food Market",
+                "STORE_ADDRESS": "727 N 10th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15357094004354,
+                    39.965795856932196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 233,
+                "OFFICIAL_STORE_NAME": "Popex Mini Market",
+                "STORE_ADDRESS": "2401 Cecil B Moore Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17414147507327,
+                    39.9808414558668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 234,
+                "OFFICIAL_STORE_NAME": "Popreak Grocery",
+                "STORE_ADDRESS": "1600 S 5th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15376825354502,
+                    39.92857036753153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 235,
+                "OFFICIAL_STORE_NAME": "Pretty Mary's 24/7 Neighborhood Store",
+                "STORE_ADDRESS": "2126 E Chelten Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19138"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15655150668111,
+                    40.05187223282585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 236,
+                "OFFICIAL_STORE_NAME": "Queen Village Food Market",
+                "STORE_ADDRESS": "339 Bainbridge St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19147"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14862747181172,
+                    39.94069804891844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 237,
+                "OFFICIAL_STORE_NAME": "Queen Village Mini Market & Deli",
+                "STORE_ADDRESS": "246 Christian St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19147"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14837055534561,
+                    39.93637374515798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 238,
+                "OFFICIAL_STORE_NAME": "Quick Stop 3 Inc",
+                "STORE_ADDRESS": "3001 Kensington Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1182383845464,
+                    39.99379036167605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 239,
+                "OFFICIAL_STORE_NAME": "R & M Food Market",
+                "STORE_ADDRESS": "5754 Rising Sun Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10491302701217,
+                    40.04258608043536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 240,
+                "OFFICIAL_STORE_NAME": "Rafa Grocery",
+                "STORE_ADDRESS": "116 E Ontario St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12806565022454,
+                    40.00152740142414
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 241,
+                "OFFICIAL_STORE_NAME": "Ramirez Grocery",
+                "STORE_ADDRESS": "1701 W Tioga St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15675276875264,
+                    40.00685486096366
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 242,
+                "OFFICIAL_STORE_NAME": "Ricardo's Mini Market",
+                "STORE_ADDRESS": "5000 Gransback St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11519055041803,
+                    40.02503887895709
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 243,
+                "OFFICIAL_STORE_NAME": "Rios Food Market",
+                "STORE_ADDRESS": "1700 S 10th St",
+                "CDC_STORE_LEVEL": 1,
+                "CATEGORY": "Certification",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16185885044229,
+                    39.92837932285117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 244,
+                "OFFICIAL_STORE_NAME": "Rising Sun Grocery",
+                "STORE_ADDRESS": "2348 S 7Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15898455588791,
+                    39.91952802113957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 245,
+                "OFFICIAL_STORE_NAME": "Rodriguez Grocery",
+                "STORE_ADDRESS": "2438 W Thompson St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17642978247001,
+                    39.97542198196627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 246,
+                "OFFICIAL_STORE_NAME": "Rodriguez Grocery",
+                "STORE_ADDRESS": "2601 N 33rd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.18531121197113,
+                    39.99630608912477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 247,
+                "OFFICIAL_STORE_NAME": "Rodriguez Mini Market",
+                "STORE_ADDRESS": "1646 N 29Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.18205234364558,
+                    39.9814333709074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 248,
+                "OFFICIAL_STORE_NAME": "Rodriguez Variety",
+                "STORE_ADDRESS": "4600 Rising Sun Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12653141212341,
+                    40.02045682749646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 249,
+                "OFFICIAL_STORE_NAME": "Rogelio Mini Market",
+                "STORE_ADDRESS": "3034-36 W York Street",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.18220897959091,
+                    39.99278904185944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 250,
+                "OFFICIAL_STORE_NAME": "Romano's Grocery",
+                "STORE_ADDRESS": "1219 E. Luzerne Street",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19124"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1041140305361,
+                    40.007948498308515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 251,
+                "OFFICIAL_STORE_NAME": "Rosa's Pretzel Bakery And Deli",
+                "STORE_ADDRESS": "441 W Girard Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1443005820296,
+                    39.970159899910946
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 252,
+                "OFFICIAL_STORE_NAME": "Roselix Grocery",
+                "STORE_ADDRESS": "4056 N 8Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14064132778829,
+                    40.01347987802069
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 253,
+                "OFFICIAL_STORE_NAME": "Sal's Produce Plus Inc",
+                "STORE_ADDRESS": "676 N Broad St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19130"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1606175214359,
+                    39.96632940125351
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 254,
+                "OFFICIAL_STORE_NAME": "Samana Food Market",
+                "STORE_ADDRESS": "1801 S 58th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.2296717905206,
+                    39.93677297469234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 255,
+                "OFFICIAL_STORE_NAME": "Sam's Supermarket",
+                "STORE_ADDRESS": "2852 N Front St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13045509366933,
+                    39.99328766586158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 256,
+                "OFFICIAL_STORE_NAME": "San Miguel Deli",
+                "STORE_ADDRESS": "425 W York St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14026633146543,
+                    39.987454970441064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 257,
+                "OFFICIAL_STORE_NAME": "San Miguel Mini Market Inc",
+                "STORE_ADDRESS": "2108 S 8Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15985198487083,
+                    39.922849186174375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 258,
+                "OFFICIAL_STORE_NAME": "Saury Inc",
+                "STORE_ADDRESS": "3101 N Front St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19133"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12955084471704,
+                    39.99698653182985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 259,
+                "OFFICIAL_STORE_NAME": "Sekpeh Prosperity #1",
+                "STORE_ADDRESS": "6715 Elmwood Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23342116140496,
+                    39.92009239356034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 260,
+                "OFFICIAL_STORE_NAME": "SH & FY Inc.",
+                "STORE_ADDRESS": "2449 Ridge Avenue",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17499882847594,
+                    39.98253950103382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 261,
+                "OFFICIAL_STORE_NAME": "Shiv Food Market Llc",
+                "STORE_ADDRESS": "899 Brill St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19124"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.0910506428077,
+                    40.03305164700255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 262,
+                "OFFICIAL_STORE_NAME": "Shop & Go Convenience Store",
+                "STORE_ADDRESS": "5227 Woodland Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21718127816055,
+                    39.937710000856534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 263,
+                "OFFICIAL_STORE_NAME": "Shop & Save Dollar Plus",
+                "STORE_ADDRESS": "5600 Catharine St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.23519733081444,
+                    39.94993173694773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 264,
+                "OFFICIAL_STORE_NAME": "Sister International Food Market",
+                "STORE_ADDRESS": "5533 Chester Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19143"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.2252425987502,
+                    39.938127312637626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 265,
+                "OFFICIAL_STORE_NAME": "Snyder Supermarket Inc",
+                "STORE_ADDRESS": "2700 Snyder Ave",
+                "CDC_STORE_LEVEL": 2,
+                "CATEGORY": "Certification",
+                "ZIP": "19145"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1910448601081,
+                    39.92709549538611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 266,
+                "OFFICIAL_STORE_NAME": "Sosa Food Market",
+                "STORE_ADDRESS": "4062 L St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19124"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10271632456016,
+                    40.00866926690941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 267,
+                "OFFICIAL_STORE_NAME": "Speedy's Mart",
+                "STORE_ADDRESS": "5934 Bustleton Ave.",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19149"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.07422969433475,
+                    40.028836268670744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 268,
+                "OFFICIAL_STORE_NAME": "Starlite Grocery",
+                "STORE_ADDRESS": "425 W Olney St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12959342715261,
+                    40.036378673742874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 269,
+                "OFFICIAL_STORE_NAME": "Stop N Shop",
+                "STORE_ADDRESS": "4345 Chippendale St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19136"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.03238780174868,
+                    40.03680150172947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 270,
+                "OFFICIAL_STORE_NAME": "Sun's Grocery",
+                "STORE_ADDRESS": "1311 Wharton St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19147"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16597567945114,
+                    39.933992913309616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 271,
+                "OFFICIAL_STORE_NAME": "Super Chicken Grocery",
+                "STORE_ADDRESS": "6901 Rodney St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19138"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15616125357776,
+                    40.057105144477376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 272,
+                "OFFICIAL_STORE_NAME": "Syed Brothers Supermarket",
+                "STORE_ADDRESS": "250 S 52nd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22584772266445,
+                    39.95563328763583
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 273,
+                "OFFICIAL_STORE_NAME": "T & S Express Market",
+                "STORE_ADDRESS": "1200 E Hunting Park Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19124"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.10415909936745,
+                    40.011013977812055
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 274,
+                "OFFICIAL_STORE_NAME": "Tacony Food Mart",
+                "STORE_ADDRESS": "6648 Torresdale Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19135"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.04751358360512,
+                    40.02380770040713
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 275,
+                "OFFICIAL_STORE_NAME": "Tamyra Family Market",
+                "STORE_ADDRESS": "1770 N Mascher St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13596503014006,
+                    39.97705750036592
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 276,
+                "OFFICIAL_STORE_NAME": "Tanos Deli",
+                "STORE_ADDRESS": "7401 Bingham St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.08065009428341,
+                    40.06222381051491
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 277,
+                "OFFICIAL_STORE_NAME": "Tasty Kake Outlet",
+                "STORE_ADDRESS": "2236 Hunting Park Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16612851497925,
+                    40.010198906882685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 278,
+                "OFFICIAL_STORE_NAME": "Tavares Grocery",
+                "STORE_ADDRESS": "2514 W Allegheny Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1712744479908,
+                    40.00392915455424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 279,
+                "OFFICIAL_STORE_NAME": "Thang Len Market",
+                "STORE_ADDRESS": "414 E Wyoming Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.11767846926244,
+                    40.02070297498626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 280,
+                "OFFICIAL_STORE_NAME": "Thank God Grocery",
+                "STORE_ADDRESS": "420 W Olney Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12958676586527,
+                    40.03629281635429
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 281,
+                "OFFICIAL_STORE_NAME": "The Latin Spot",
+                "STORE_ADDRESS": "1839 S 8Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15907096964015,
+                    39.925863678825515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 282,
+                "OFFICIAL_STORE_NAME": "The New Family Restaurant",
+                "STORE_ADDRESS": "4936 N 5th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13277336815104,
+                    40.02636707697436
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 283,
+                "OFFICIAL_STORE_NAME": "The Queen Store",
+                "STORE_ADDRESS": "6559 Torresdale Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19135"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.0490290604566,
+                    40.02292264007617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 284,
+                "OFFICIAL_STORE_NAME": "The Right Choice",
+                "STORE_ADDRESS": "2221 W Berks St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17102286022991,
+                    39.98354570549306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 285,
+                "OFFICIAL_STORE_NAME": "Three Sisters Grocery",
+                "STORE_ADDRESS": "2500 W Master St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17663481649983,
+                    39.9767521832696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 286,
+                "OFFICIAL_STORE_NAME": "TiendaMex",
+                "STORE_ADDRESS": "4831 Rising Sun Ave.",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12375444020384,
+                    40.02391740871985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 287,
+                "OFFICIAL_STORE_NAME": "Tilden Food Market",
+                "STORE_ADDRESS": "3539 Vaux St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19129"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.18844451395412,
+                    40.01424531589765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 288,
+                "OFFICIAL_STORE_NAME": "TNT Market",
+                "STORE_ADDRESS": "1847 72nd Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19126"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14663217312346,
+                    40.06378056581016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 289,
+                "OFFICIAL_STORE_NAME": "Trebol Supermarket",
+                "STORE_ADDRESS": "1137 Spring Garden St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15669088752202,
+                    39.96186733520946
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 290,
+                "OFFICIAL_STORE_NAME": "Uceta Grocery",
+                "STORE_ADDRESS": "6053 Elmwood Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.22447768344307,
+                    39.92627489886953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 291,
+                "OFFICIAL_STORE_NAME": "United Mini Market",
+                "STORE_ADDRESS": "659 W Rockland St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19120"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13594505623139,
+                    40.02624085231678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 292,
+                "OFFICIAL_STORE_NAME": "University Dollar Plus",
+                "STORE_ADDRESS": "4734-40 Spruce Street",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.21685826263587,
+                    39.953430441441526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 293,
+                "OFFICIAL_STORE_NAME": "Valentina Grocery",
+                "STORE_ADDRESS": "3300 W Allegheny Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.18338744310464,
+                    40.00550000914692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 294,
+                "OFFICIAL_STORE_NAME": "Villa Vasquez Mini Market",
+                "STORE_ADDRESS": "3900 N 7Th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19140"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13986412837433,
+                    40.011008782122516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 295,
+                "OFFICIAL_STORE_NAME": "Wallace Market",
+                "STORE_ADDRESS": "2000 Wallace St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Certification",
+                "ZIP": "19130"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.17043556403132,
+                    39.966328588446565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 296,
+                "OFFICIAL_STORE_NAME": "Wayne Associated",
+                "STORE_ADDRESS": "5101 Wayne Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19144"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16921760820507,
+                    40.02629234822523
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 297,
+                "OFFICIAL_STORE_NAME": "Wayne Avenue Health Food Store",
+                "STORE_ADDRESS": "5007 Wayne Ave",
+                "CDC_STORE_LEVEL": 1,
+                "CATEGORY": "Certification",
+                "ZIP": "19144"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1677520126057,
+                    40.025497268254455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 298,
+                "OFFICIAL_STORE_NAME": "Wensle Mini Mart",
+                "STORE_ADDRESS": "3061 D St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19134"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.12163240154318,
+                    39.995641162613325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 299,
+                "OFFICIAL_STORE_NAME": "Weso Mini Market",
+                "STORE_ADDRESS": "2964 N 23rd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1683516060173,
+                    39.99989724585181
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 300,
+                "OFFICIAL_STORE_NAME": "West Philadelphia Produce",
+                "STORE_ADDRESS": "18 S 62nd St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19139"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.24486734280806,
+                    39.962005920645964
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 301,
+                "OFFICIAL_STORE_NAME": "Wholly Smokes Cigarette Outlet II",
+                "STORE_ADDRESS": "2747 S 7th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15992654918958,
+                    39.9146950875241
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 302,
+                "OFFICIAL_STORE_NAME": "Wolf Variety Store",
+                "STORE_ADDRESS": "2301 S 12th St",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.166515344143,
+                    39.921416165161695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 303,
+                "OFFICIAL_STORE_NAME": "Woodlawn Deli",
+                "STORE_ADDRESS": "5637 Chew Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19138"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16369633921919,
+                    40.04484406591787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 304,
+                "OFFICIAL_STORE_NAME": "Yadira Grocery",
+                "STORE_ADDRESS": "2227 W Lehigh Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.16861974596206,
+                    39.99582293462655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 305,
+                "OFFICIAL_STORE_NAME": "Z & Y Food Market",
+                "STORE_ADDRESS": "7601 Torresdale Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19136"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.02971614170727,
+                    40.03290802205272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 306,
+                "OFFICIAL_STORE_NAME": "Zam Zam Market",
+                "STORE_ADDRESS": "7333 Elmwood Ave",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19142"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.24256469830381,
+                    39.9136623801221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 307,
+                "OFFICIAL_STORE_NAME": "Zenarda Grocery",
+                "STORE_ADDRESS": "643 W Oxford Avenue",
+                "CDC_STORE_LEVEL": 3,
+                "CATEGORY": "Enhanced",
+                "ZIP": "19122"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14655645600818,
+                    39.97582874476359
+                ]
+            }
+        }
+    ]
+}
