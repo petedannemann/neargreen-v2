@@ -7,6 +7,7 @@ from django.contrib.auth.models import Group
 from .forms import ProfileCreationForm, ProfileChangeForm
 from .models import Profile
 
+
 class ProfileAdmin(UserAdmin):
     add_form = ProfileCreationForm
     form = ProfileChangeForm

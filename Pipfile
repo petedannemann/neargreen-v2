@@ -14,6 +14,7 @@ pillow = "*"
 djangorestframework-jwt = "*"
 pysqlite3 = "*"
 djangorestframework-gis = "*"
+geojson = "*"
 
 [dev-packages]
 autopep8 = "*"

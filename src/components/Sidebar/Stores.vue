@@ -17,9 +17,6 @@ export default {
     status: state => state.auth.status,
     user: state => state.auth.user
   }),
-  mounted() {
-    this.$store.dispatch('stores/getStores')
-  },
   components: {
     appStore: Store
   }

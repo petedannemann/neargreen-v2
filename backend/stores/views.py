@@ -41,7 +41,9 @@ class StoreRudView(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [IsOwnerOrReadOnly]
 
     def get_queryset(self):
-        return Store.objects.all()
+        return Store.objects.annotate(
+            distance=Distance('location', user_location)
+        )
 
     def get_serializer_context(self, *args, **kwargs):
         return {'request': self.request}

@@ -13,6 +13,8 @@ def load_data(apps, schema_editor):
     Profile = apps.get_model('users', 'Profile')
     jsonfile = Path(__file__).parents[3] / DATA_FILENAME
 
+    Profile(username='Neargreen', password='12345').save()
+
     with open(str(jsonfile)) as datafile:
         data = json.load(datafile)
         for store in data['features']:
@@ -24,7 +26,7 @@ def load_data(apps, schema_editor):
                 longitude = coordinates[0]
                 latitude = coordinates[1]
                 location = fromstr(f'POINT({longitude} {latitude})', srid=4326)
-                user = Profile.objects.get(pk=1)
+                user = Profile.objects.get(username='Neargreen')
                 Store(user=user, name=name, address=address, location=location).save()
             except KeyError:
                 pass  
