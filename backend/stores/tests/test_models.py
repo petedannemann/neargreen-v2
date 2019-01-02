@@ -9,30 +9,29 @@ from ...users.models import Profile
 class StoreTest(TestCase):
     ''' Test module for Store model '''
 
+    USERNAME = 'Neargreen'
+    STORE_NAME = 'Mama Mia Pizzaria'
+    ADDRESS = '1234 JFK Blvd'
+    LONGITUDE = -75.1652
+    LATITUDE = 39.9526
+
     def setUp(self):
-        longitude = -75.1652
-        latitude = 39.9526
-
         # Made by stores/migrations/0003
-        user = Profile.objects.get(username='Neargreen')
+        self.user = Profile.objects.get(username=self.USERNAME)
 
-        Store.objects.create(
-            user=user,
-            name='Mama Mia Pizzaria',
-            address='1234 JFK Blvd',
-            location = fromstr(f'POINT({longitude} {latitude})', srid=4326)
+        self.store = Store.objects.create(
+            user=self.user,
+            name=self.STORE_NAME,
+            address=self.ADDRESS,
+            location = fromstr(f'POINT({self.LONGITUDE} {self.LATITUDE})', srid=4326)
         )
 
     def test_store_name(self):
-        store_pizzaria = Store.objects.get(name='Mama Mia Pizzaria')
-        self.assertEqual(str(store_pizzaria), 'Mama Mia Pizzaria')
+        self.assertEqual(str(self.store), self.STORE_NAME)
 
     def test_store_owner(self):
-        store_pizzaria = Store.objects.get(name='Mama Mia Pizzaria')
-        user = Profile.objects.get(username='Neargreen')
-        self.assertEqual(store_pizzaria.owner, user)
+        self.assertEqual(self.store.owner, self.user)
 
     def test_store_api_url(self):
-        store_pizzaria = Store.objects.get(name='Mama Mia Pizzaria')
-        store_pizzaria_api_url = f'/api/stores/{store_pizzaria.pk}/'
-        self.assertEqual(store_pizzaria.get_api_url(), store_pizzaria_api_url)
+        store_api_url = f'/api/stores/{self.store.pk}/'
+        self.assertEqual(self.store.get_api_url(), store_api_url)

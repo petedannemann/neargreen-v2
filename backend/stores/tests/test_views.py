@@ -15,20 +15,25 @@ from ...users.serializers import UserSerializer
 class GetStoresTest(APITestCase):
     ''' Test module for GET stores API '''
 
+    USERNAME = 'Neargreen'
+    STORE_NAME = 'Mama Mia Pizzaria'
+    ADDRESS = '1234 JFK Blvd'
+    LONGITUDE = -75.1652
+    LATITUDE = 39.9526
+    SRID = 4326
+
     def setUp(self):
-        longitude = -75.1652
-        latitude = 39.9526
 
-        user = Profile.objects.get(username='Neargreen')
+        self.user = Profile.objects.get(username=self.USERNAME)
 
-        self.chineseFood = Store.objects.create(
-            user=user,
-            name='Chinese Food',
-            address='1234 JFK Blvd',
-            location = fromstr(f'POINT({longitude} {latitude})', srid=4326)
+        self.store = Store.objects.create(
+            user=self.user,
+            name=self.STORE_NAME,
+            address=self.ADDRESS,
+            location = fromstr(f'POINT({self.LONGITUDE} {self.LATITUDE})', srid=self.SRID)
         )
 
-        self.user_location = Point(longitude, latitude, srid=4326)
+        self.user_location = Point(self.LONGITUDE, self.LATITUDE, srid=self.SRID)
 
     # def test_get_stores(self):
     #     ' Pretty tricky due to pagination... Gotta come back to this one'
@@ -41,11 +46,11 @@ class GetStoresTest(APITestCase):
     #     self.assertEqual(response.status_code, status.HTTP_200_OK)
 
     def test_get_valid_single_store(self):
-        response = self.client.get(reverse('store-rud', kwargs={'pk': self.chineseFood.pk}))
-        chineseFood = Store.objects.annotate(
+        response = self.client.get(reverse('store-rud', kwargs={'pk': self.store.pk}))
+        store = Store.objects.annotate(
             distance=Distance('location', self.user_location)
-        ).get(pk=self.chineseFood.pk)
-        serializer = StoreSerializer(chineseFood)
+        ).get(pk=self.store.pk)
+        serializer = StoreSerializer(store)
         self.assertEqual(response.data, serializer.data)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
@@ -56,31 +61,36 @@ class GetStoresTest(APITestCase):
 class CreateNewStoreTest(APITestCase):
     ''' Test module for inserting a new store '''
 
-    def setUp(self):
-        longitude = -75.1652
-        latitude = 39.9526
+    USERNAME = 'Neargreen'
+    STORE_NAME = 'Mama Mia Pizzaria'
+    ADDRESS = '1234 JFK Blvd'
+    LONGITUDE = -75.1652
+    LATITUDE = 39.9526
+    SRID = 4326
 
-        user = Profile.objects.get(username='Neargreen')
+    def setUp(self):
+
+        self.user = Profile.objects.get(username=self.USERNAME)
 
         self.valid_payload = {
-            'name': 'Generic Name',
-            'address': '1234 JFK Blvd',
+            'name': self.STORE_NAME,
+            'address': self.ADDRESS,
             'location': {
                 'type': 'Point',
                 'coordinates': [
-                    longitude,
-                    latitude
+                    self.LONGITUDE,
+                    self.LATITUDE
                 ]
             },
         }
         self.invalid_payload = {
-            'name': 'Generic Name',
-            'address': '1234 JFK Blvd',
+            'name': self.STORE_NAME,
+            'address': self.ADDRESS,
             'location': {
                 'type': 'Point',
                 'coordinates': [
-                    longitude,
-                    latitude
+                    self.LONGITUDE,
+                    self.LATITUDE
                 ]
             },
         }
