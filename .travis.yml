@@ -1,0 +1,15 @@
+language: python
+python:
+  - '3.6'
+
+before_install:
+  # Update
+  - sudo apt-get update
+  # Install gdal
+  - sudo apt-get install -y binutils libproj-dev libgeos-dev gdal-bin
+  # Install spatialite
+  - sudo apt-get install -y libspatialite-dev
+
+install: make setup
+
+script: make test

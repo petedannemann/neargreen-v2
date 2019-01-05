@@ -98,7 +98,13 @@ DATABASES = {
     }
 }
 
-SPATIALITE_LIBRARY_PATH = '/usr/local/lib/mod_spatialite.dylib'
+# Spatialite is located in a different place on ubuntu than mac
+# this is necessary to get travis to run properly
+if os.getenv('BUILD_ON_TRAVIS', None):
+    SPATIALITE_LIBRARY_PATH = 'libspatialite.so'
+else: 
+    SPATIALITE_LIBRARY_PATH = '/usr/local/lib/mod_spatialite.dylib'
+
 
 
 # Password validation

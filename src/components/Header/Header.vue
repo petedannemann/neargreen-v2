@@ -3,7 +3,7 @@
     <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Neargreen</a>
+          <a class="navbar-brand" href="#">NearGreen</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-left" role="search">
@@ -95,5 +95,9 @@ export default {
 </script>
 
 <style scoped>
+.navbar-default {
+  background-color: #d7f0cf;
+  border-color: #e7e7e7;
+}
 </style>
 

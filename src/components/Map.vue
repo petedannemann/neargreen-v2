@@ -56,7 +56,8 @@ export default {
       L.control.layers({ 'Streets': streets, 'Light': light }).addTo(this.map)
     },
     placeStoreMarkers() {
-      const storeFeatures = this.stores.map(store => L.marker(store.location.coordinates))
+      // Lat - Lon are vice versa from Django -> Leaflet
+      const storeFeatures = this.stores.map(store => L.marker([store.location.coordinates[1], store.location.coordinates[0]]))
       this.map.addLayer(L.layerGroup(storeFeatures))
     },
     placeLocationMarker() {

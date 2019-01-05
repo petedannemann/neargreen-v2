@@ -4,14 +4,16 @@
       <span>Nearby&nbsp;Stores</span>
     </div>
     <div id="stores">
-      <h2>Nearby Stores</h2>
-      <app-stores></app-stores>
+      <div v-for="(store, index) in stores" :key="index">
+        <app-store v-bind:store="store"></app-store>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Stores from './Stores'
+import { mapState } from 'vuex'
+import Store from './Store'
 
 export default {
   data() {
@@ -19,8 +21,11 @@ export default {
       showSidebar: false
     }
   },
+  computed: mapState({
+    stores: state => state.stores.stores,
+  }),
   components: {
-    appStores: Stores
+    appStore: Store
   }
 }
 </script>
@@ -46,11 +51,11 @@ export default {
 
 #toolbar .hamburger {
   height: 100px;
-  width: 25px;
+  width: 35px;
   background: #000;
   box-shadow: 1px 0 2px rgba(0, 0, 0, 0.3);
   position: absolute;
-  right: -25px;
+  right: -35px;
   top: 40%;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;

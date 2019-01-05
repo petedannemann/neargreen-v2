@@ -1,8 +1,33 @@
 <template>
-  <div>
-    <p class="store-name" v-html="store.name"></p>
-    <p class="store-address" v-html="store.address"></p>
-    <p class="store-distance" v-html="store.distance"></p>
+  <div class="row store-row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="panel panel-primary">
+        <div class="row padall">
+          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+            <div>
+              <h5>
+                <strong>
+                  <em>
+                    <span>{{ store.name }}</span>
+                  </em>
+                </strong>
+              </h5>
+              <h5>
+                <a href="#" alt="Get Directions">
+                  <span>{{ store.address }}</span>
+                  <br>
+                  <span>
+                    {{ store.distance }}
+                    <span class="inline" v-if="store.distance <= 1">Mile</span>
+                    <span class="inline" v-else>Miles</span>
+                  </span>
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -12,3 +37,36 @@ export default {
   props: ['store'],
 }
 </script>
+
+<style scoped>
+.panel {
+  box-shadow: none;
+  width: 300px;
+}
+
+.panel-primary {
+  width: 300px;
+  height: 100px;
+  border: none;
+  border-radius: 0px;
+  border-bottom: none;
+  text-align: left;
+}
+
+.panel-primary a {
+  text-decoration: none;
+  color: #000;
+}
+
+.panel-primary a:hover {
+  text-decoration: underline;
+}
+
+.panel-primary:hover {
+  background-color: rgba(66, 244, 69, 0.5);
+}
+
+.inline {
+  display: inline-block;
+}
+</style>
