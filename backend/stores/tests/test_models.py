@@ -14,6 +14,9 @@ class StoreTest(TestCase):
     ADDRESS = '1234 JFK Blvd'
     LONGITUDE = -75.1652
     LATITUDE = 39.9526
+    SRID = 4326
+
+    STORE_API_URL = '/api/stores/'
 
     def setUp(self):
         # Made by stores/migrations/0003
@@ -23,7 +26,7 @@ class StoreTest(TestCase):
             user=self.user,
             name=self.STORE_NAME,
             address=self.ADDRESS,
-            location = fromstr(f'POINT({self.LONGITUDE} {self.LATITUDE})', srid=4326)
+            location = fromstr(f'POINT({self.LONGITUDE} {self.LATITUDE})', srid=self.SRID)
         )
 
     def test_store_name(self):
@@ -33,5 +36,5 @@ class StoreTest(TestCase):
         self.assertEqual(self.store.owner, self.user)
 
     def test_store_api_url(self):
-        store_api_url = f'/api/stores/{self.store.pk}/'
+        store_api_url = self.STORE_API_URL + str(self.store.pk) + '/'
         self.assertEqual(self.store.get_api_url(), store_api_url)

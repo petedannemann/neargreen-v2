@@ -1,6 +1,8 @@
 <template>
   <div class="mapwrap">
-    <app-sidebar></app-sidebar>
+    <div class="results-container">
+      <app-sidebar></app-sidebar>
+    </div>
     <div id="map"></div>
   </div>
 </template>
@@ -9,6 +11,7 @@
 import Sidebar from './Sidebar/Sidebar'
 import { mapState } from 'vuex'
 import * as L from 'leaflet'
+import * as LeafImage from '../assets/images/leaf.png'
 
 export default {
   name: 'Map',
@@ -20,7 +23,7 @@ export default {
     return {
       defaultLocation: [39.9523893, -75.1636291],
       locationMarker: null,
-      map: null,
+      map: null
     }
   },
   computed: mapState({
@@ -57,16 +60,26 @@ export default {
     },
     placeStoreMarkers() {
       // Lat - Lon are vice versa from Django -> Leaflet
-      const storeFeatures = this.stores.map(store => L.marker([store.location.coordinates[1], store.location.coordinates[0]]))
+      const leafIcon = L.icon({
+        iconUrl: LeafImage,
+        iconSize: [32, 37],
+        iconAnchor: [16, 37],
+        popupAnchor: [0, -28]
+      })
+      const storeFeatures = this.stores.map(store => {
+        const popup = `<p>${store.name}<br/>${store.address}</p>`
+        const marker = L.marker([store.location.coordinates[1], store.location.coordinates[0]], { icon: leafIcon }).bindPopup(popup)
+        return marker
+      })
       this.map.addLayer(L.layerGroup(storeFeatures))
     },
     placeLocationMarker() {
-      const location = this.getLocation()
+      const currentLocation = this.getLocation()
       if (this.locationMarker !== null) {
         this.map.removeLayer(this.locationMarker)
       }
-      this.locationMarker = L.marker(location).addTo(this.map)
-      this.map.panTo(location)
+      this.locationMarker = L.marker(currentLocation).addTo(this.map)
+      this.map.panTo(currentLocation)
     },
   },
   watch: {

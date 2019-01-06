@@ -39,6 +39,10 @@ export default {
 </script>
 
 <style scoped>
+.map-store-icon {
+  font-size: 50px;
+}
+
 .panel {
   box-shadow: none;
   width: 300px;
@@ -58,12 +62,9 @@ export default {
   color: #000;
 }
 
-.panel-primary a:hover {
-  text-decoration: underline;
-}
-
 .panel-primary:hover {
   background-color: rgba(66, 244, 69, 0.5);
+  cursor: pointer;
 }
 
 .inline {

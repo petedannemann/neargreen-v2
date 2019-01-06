@@ -3,7 +3,9 @@
     <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">NearGreen</a>
+          <a class="navbar-brand" href="#">
+            <img id="neargreenLogo" src="../../assets/images/neargreenlogo.png" alt>
+          </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-left" role="search">
@@ -98,6 +100,12 @@ export default {
 .navbar-default {
   background-color: #d7f0cf;
   border-color: #e7e7e7;
+}
+
+#neargreenLogo {
+  width: 64px;
+  height: 42px;
+  margin-top: -15px;
 }
 </style>
 
