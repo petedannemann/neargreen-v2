@@ -8,7 +8,7 @@ const state = {
 }
 
 const actions = {
-  register({ commit }, payload) {
+  async register({ commit }, payload) {
     authService
       .register(payload)
       .then(data => {
@@ -19,7 +19,7 @@ const actions = {
         reject(err)
       })
   },
-  login({ commit }, payload) {
+  async login({ commit }, payload) {
     authService
       .login(payload)
       .then(data => {
@@ -30,11 +30,14 @@ const actions = {
         reject(err)
       })
   },
-  logout({ commit }) {
+  async logout({ commit }) {
     authService
       .logout()
       .then(() => commit('logout'))
-      .catch(err => console.log(err))
+      .catch(err => {
+        commit('authError')
+        reject(err)
+      })
   }
 }
 

@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     getLocation() {
-      return this.location || this.defaultLocation;
+      return this.location || this.defaultLocation
     },
     initMap() {
       const map = L.map('map', { zoomControl: false }).setView(this.getLocation(), 18)
@@ -82,7 +82,7 @@ export default {
       this.map.panTo(currentLocation)
     },
     onZoomToStore(coords) {
-      this.map.setView([coords[1], coords[0]])
+      this.map.setView([coords[1], coords[0]], 20)
     }
   },
   watch: {

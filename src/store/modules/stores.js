@@ -11,7 +11,7 @@ const getters = {
 }
 
 const actions = {
-  getStores({ commit }) {
+  async getStores({ commit }) {
     storeService.fetchStores().then(stores => {
       commit('setStores', stores)
     })
