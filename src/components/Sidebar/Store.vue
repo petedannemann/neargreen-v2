@@ -13,7 +13,10 @@
                 </strong>
               </h5>
               <h5>
-                <a href="#" alt="Get Directions">
+                <div
+                  class="store-details"
+                  @click="$emit('triggerZoomToStore', store.location.coordinates)"
+                >
                   <span>{{ store.address }}</span>
                   <br>
                   <span>
@@ -21,7 +24,7 @@
                     <span class="inline" v-if="store.distance <= 1">Mile</span>
                     <span class="inline" v-else>Miles</span>
                   </span>
-                </a>
+                </div>
               </h5>
             </div>
           </div>
@@ -57,7 +60,7 @@ export default {
   text-align: left;
 }
 
-.panel-primary a {
+.store-details {
   text-decoration: none;
   color: #000;
 }
