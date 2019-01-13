@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <app-header></app-header>
+    <app-header @triggerZoomToLocation="zoomToLocation"></app-header>
     <div class="container-fluid">
       <div class="map-container">
-        <app-map></app-map>
+        <app-map v-bind:location="location"></app-map>
       </div>
     </div>
   </div>
@@ -28,8 +28,18 @@ export default {
     appHeader: Header,
     appMap: _Map
   },
+  data() {
+    return {
+      location: null
+    }
+  },
   created() {
     this.$store.dispatch('stores/getStores')
+  },
+  methods: {
+    zoomToLocation(coordinates) {
+      this.location = coordinates
+    }
   }
 }
 </script>

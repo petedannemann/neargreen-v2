@@ -1,5 +1,5 @@
 <template>
-  <div class="row store-row">
+  <div class="row store-row" @click="$emit('triggerZoomToStore', store.location.coordinates)">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <div class="panel panel-primary">
         <div class="row padall">
@@ -13,10 +13,7 @@
                 </strong>
               </h5>
               <h5>
-                <div
-                  class="store-details"
-                  @click="$emit('triggerZoomToStore', store.location.coordinates)"
-                >
+                <div class="store-details">
                   <span>{{ store.address }}</span>
                   <br>
                   <span>

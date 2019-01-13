@@ -1,7 +1,7 @@
 <template>
   <div class="mapwrap">
     <div class="results-container">
-      <app-sidebar @zoomToStore="onZoomToStore"></app-sidebar>
+      <app-sidebar @zoomToLocation="zoomToLocation"></app-sidebar>
     </div>
     <div id="map"></div>
   </div>
@@ -81,14 +81,14 @@ export default {
       this.locationMarker = L.marker(currentLocation).addTo(this.map)
       this.map.panTo(currentLocation)
     },
-    onZoomToStore(coords) {
+    zoomToLocation(coords) {
       this.map.setView([coords[1], coords[0]], 20)
     }
   },
   watch: {
     location() {
       this.placeLocationMarker()
-    },
+    }
   }
 }
 </script>

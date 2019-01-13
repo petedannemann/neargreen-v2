@@ -5,7 +5,7 @@
     </div>
     <div id="stores">
       <div v-for="(store, index) in stores" :key="index">
-        <app-store v-bind:store="store" @triggerZoomToStore="zoomToStore"></app-store>
+        <app-store v-bind:store="store"></app-store>
       </div>
     </div>
   </div>
@@ -24,11 +24,6 @@ export default {
   computed: mapState({
     stores: state => state.stores.stores,
   }),
-  methods: {
-    zoomToStore(coordinates) {
-      this.$emit('zoomToStore', coordinates)
-    }
-  },
   components: {
     appStore: Store
   }

@@ -10,7 +10,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
+              <input
+                v-model="searchValue"
+                v-on:keydown.enter.prevent="submitSearch"
+                type="text"
+                class="form-control"
+                placeholder="Enter an Address"
+              >
             </div>
           </form>
           <ul class="nav navbar-nav navbar-right" v-if="status !== 'success'">
@@ -69,15 +75,25 @@
 
 <script>
 import { mapState } from 'vuex'
+import { OpenStreetMapProvider } from 'leaflet-geosearch'
 
 import Register from './Register'
 import Login from './Login'
+
+const geocoder = new OpenStreetMapProvider({
+  params: {
+    city: 'Philadelphia',
+    state: 'PA',
+    limit: 1
+  }
+})
 
 export default {
   data() {
     return {
       showRegisterModal: false,
-      showLoginModal: false
+      showLoginModal: false,
+      searchValue: ''
     }
   },
   computed: mapState({
@@ -87,6 +103,12 @@ export default {
   methods: {
     logout() {
       this.$store.dispatch('auth/logout')
+    },
+    submitSearch() {
+      geocoder.search({ query: this.searchValue })
+        .then(results => {
+          this.$emit('triggerZoomToLocation', [results[0].y, results[0].x])
+        })
     }
   },
   components: {
