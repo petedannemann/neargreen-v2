@@ -30,15 +30,25 @@ export default {
   },
   data() {
     return {
-      location: null
+      location: [39.9523893, -75.1636291]
     }
   },
-  created() {
-    this.$store.dispatch('stores/getStores')
+  beforeMount() {
+    this.getLocation()
+  },
+  mounted() {
+    this.$store.dispatch('stores/getStores', { latitude: this.location[0], longitude: this.location[1] })
   },
   methods: {
     zoomToLocation(coordinates) {
       this.location = coordinates
+    },
+    getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(position => {
+          this.location = [position.coords.latitude, position.coords.longitude]
+        })
+      }
     }
   }
 }

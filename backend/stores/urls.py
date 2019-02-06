@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import StoreRudView, StoreAPIView
+from .views import StoreAPIView, StoreRudView
 
 
 urlpatterns = [

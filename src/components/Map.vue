@@ -21,7 +21,6 @@ export default {
   },
   data() {
     return {
-      defaultLocation: [39.9523893, -75.1636291],
       locationMarker: null,
       map: null
     }
@@ -36,11 +35,8 @@ export default {
     this.placeStoreMarkers()
   },
   methods: {
-    getLocation() {
-      return this.location || this.defaultLocation
-    },
     initMap() {
-      const map = L.map('map', { zoomControl: false }).setView(this.getLocation(), 18)
+      const map = L.map('map', { zoomControl: false }).setView(this.location, 18)
 
       L.control.zoom({
         position: 'bottomright'
@@ -74,12 +70,11 @@ export default {
       this.map.addLayer(L.layerGroup(storeFeatures))
     },
     placeLocationMarker() {
-      const currentLocation = this.getLocation()
       if (this.locationMarker !== null) {
         this.map.removeLayer(this.locationMarker)
       }
-      this.locationMarker = L.marker(currentLocation).addTo(this.map)
-      this.map.panTo(currentLocation)
+      this.locationMarker = L.marker(this.location).addTo(this.map)
+      this.map.panTo(this.location)
     },
     zoomToLocation(coords) {
       this.map.setView([coords[1], coords[0]], 20)
