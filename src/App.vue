@@ -33,22 +33,28 @@ export default {
       location: [39.9523893, -75.1636291]
     }
   },
-  beforeMount() {
+  created() {
     this.getLocation()
   },
   mounted() {
-    this.$store.dispatch('stores/getStores', { latitude: this.location[0], longitude: this.location[1] })
+    this.getStores()
   },
   methods: {
     zoomToLocation(coordinates) {
       this.location = coordinates
     },
     getLocation() {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(position => {
-          this.location = [position.coords.latitude, position.coords.longitude]
-        })
-      }
+      navigator.geolocation.getCurrentPosition(position => {
+        this.location = [position.coords.latitude, position.coords.longitude]
+      })
+    },
+    getStores() {
+      this.$store.dispatch('stores/getStores', { latitude: this.location[0], longitude: this.location[1] })
+    }
+  },
+  watch: {
+    location() {
+      this.getStores()
     }
   }
 }
