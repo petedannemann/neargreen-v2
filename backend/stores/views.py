@@ -16,8 +16,8 @@ class StoreAPIView(mixins.CreateModelMixin, generics.ListAPIView):
     pagination_class = api_settings.DEFAULT_PAGINATION_CLASS
 
     def get_queryset(self):
-        longitude = self.request.GET.get('longitude')
-        latitude= self.request.GET.get('latitude')
+        longitude = float(self.request.GET.get('longitude'))
+        latitude = float(self.request.GET.get('latitude'))
         location = Point(longitude, latitude, srid=4326)
         queryset = Store.objects.annotate(
             distance=Distance('location', location)
@@ -40,8 +40,11 @@ class StoreRudView(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [IsOwnerOrReadOnly]
 
     def get_queryset(self):
+        longitude = float(self.request.GET.get('longitude'))
+        latitude = float(self.request.GET.get('latitude'))
+        location = Point(longitude, latitude, srid=4326)
         return Store.objects.annotate(
-            distance=Distance('location', user_location)
+            distance=Distance('location', location)
         )
 
     def get_serializer_context(self, *args, **kwargs):

@@ -49,7 +49,10 @@ class GetStoresTest(APITestCase):
     #     self.assertEqual(response.status_code, status.HTTP_200_OK)
 
     def test_get_valid_single_store(self):
-        response = self.client.get(reverse('store-rud', kwargs={'pk': self.store.pk}))
+        response = self.client.get(
+            reverse('store-rud', kwargs={'pk': self.store.pk}),
+            data={'longitude': self.LONGITUDE, 'latitude': self.LATITUDE}
+        )
         store = Store.objects.annotate(
             distance=Distance('location', self.user_location)
         ).get(pk=self.store.pk)
@@ -58,7 +61,10 @@ class GetStoresTest(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
     def test_get_invalid_single_store(self):
-        response = self.client.get(reverse('store-rud', kwargs={'pk': 99999999999999}))
+        response = self.client.get(
+            reverse('store-rud', kwargs={'pk': 99999999999999}),
+            data={'longitude': self.LONGITUDE, 'latitude': self.LATITUDE}
+        )
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
 
 # class CreateNewStoreTest(APITestCase):
