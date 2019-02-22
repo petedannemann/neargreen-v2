@@ -41,7 +41,7 @@ $ yarn serve
 
 `/api/stores` Display all stores
 
-`/api/store/<storeid>` Display a specific store
+`/api/stores/<storeid>` Display a specific store
 
 `/api/register` Register a profile
 
