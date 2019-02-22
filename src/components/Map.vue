@@ -13,6 +13,13 @@ import { mapState } from 'vuex'
 import * as L from 'leaflet'
 import * as LeafImage from '../assets/images/leaf.png'
 
+const leafIcon = L.icon({
+  iconUrl: LeafImage,
+  iconSize: [32, 37],
+  iconAnchor: [16, 37],
+  popupAnchor: [0, -28]
+})
+
 export default {
   name: 'Map',
   props: ['location'],
@@ -22,7 +29,8 @@ export default {
   data() {
     return {
       locationMarker: null,
-      map: null
+      map: null,
+      storeLayer: null
     }
   },
   computed: mapState({
@@ -55,19 +63,18 @@ export default {
       L.control.layers({ 'Streets': streets, 'Light': light }).addTo(this.map)
     },
     placeStoreMarkers() {
+      if (this.storeLayer !== null) {
+        this.map.removeLayer(this.storeLayer)
+      }
+
       // Lat - Lon are vice versa from Django -> Leaflet
-      const leafIcon = L.icon({
-        iconUrl: LeafImage,
-        iconSize: [32, 37],
-        iconAnchor: [16, 37],
-        popupAnchor: [0, -28]
-      })
-      const storeFeatures = this.stores.map(store => {
+      const storePoints = this.stores.map(store => {
         const popup = `<p>${store.name}<br/>${store.address}</p>`
         const marker = L.marker([store.location.coordinates[1], store.location.coordinates[0]], { icon: leafIcon }).bindPopup(popup)
         return marker
       })
-      this.map.addLayer(L.layerGroup(storeFeatures))
+      this.storeLayer = L.layerGroup(storePoints)
+      this.map.addLayer(this.storeLayer)
     },
     placeLocationMarker() {
       if (this.locationMarker !== null) {
@@ -83,6 +90,9 @@ export default {
   watch: {
     location() {
       this.placeLocationMarker()
+    },
+    stores() {
+      this.placeStoreMarkers()
     }
   }
 }
