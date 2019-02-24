@@ -11,7 +11,8 @@ Near Green is a web application that aims to make healthy food accessible to the
 ## Requirements
 
 - Python 3.6
-- Pipenv
+- pip
+- virtualenv
 - Yarn
 - Vue Cli 3
 
@@ -19,14 +20,15 @@ Near Green is a web application that aims to make healthy food accessible to the
 
 ```bash
 $ yarn install
-$ pipenv install --dev & pipenv shell
+$ virtualenv venv && source venv/bin/activate
+$ pip install -r requirements.txt
 $ python manage.py migrate
 ```
 
 ## Run Development Servers
 
 ```bash
-$ pipenv run python manage.py runserver
+$ python manage.py runserver
 ```
 
 ```bash

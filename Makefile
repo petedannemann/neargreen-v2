@@ -1,9 +1,6 @@
 setup:
 	# Install pipenv
-	pip install pipenv
-
-	# Install python packages in Pipfile
-	pipenv install --dev
+	pip install -r requirements.txt
 
 test:
-	pipenv run python manage.py test
+	python manage.py test
