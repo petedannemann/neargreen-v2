@@ -25,7 +25,7 @@ def load_data(apps, schema_editor):
                 coordinates = store['geometry']['coordinates']
                 longitude = coordinates[0]
                 latitude = coordinates[1]
-                location = fromstr(f'POINT({longitude} {latitude})', srid=4326)
+                location = fromstr('POINT({} {})'.format(longitude, latitude), srid=4326)
                 user = Profile.objects.get(username='Neargreen')
                 Store(user=user, name=name, address=address, location=location).save()
             except KeyError:

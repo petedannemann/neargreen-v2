@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: mdillon/postgis:10
+    environment:
+        - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+        - ./pgdata:/var/lib/postgresql/data/pgdata
+  web:
+    build: .
+    command: python3 /usr/src/app/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./backend/:/usr/src/app/backend
+    ports:
+      - 8000:8000
+    environment:
+      - SECRET_KEY=please_change_me
+      - SQL_ENGINE=django.contrib.gis.db.backends.postgis
+      - SQL_DATABASE=postgres
+      - SQL_USER=postgres
+      - SQL_PASSWORD=postgres
+      - SQL_HOST=postgres
+      - SQL_PORT=5432
+      - DATABASE=postgres
+    depends_on:
+      - postgres
+  

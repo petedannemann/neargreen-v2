@@ -5,6 +5,8 @@ db.sqlite3
 .bash_profile
 /venv
 *.pyc
+passwords.txt
+/pgdata
 
 # local env files
 .env.local
