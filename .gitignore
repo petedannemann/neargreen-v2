@@ -9,6 +9,7 @@ passwords.txt
 
 # Django
 db.sqlite3
+static/
 
 # Python
 /venv

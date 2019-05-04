@@ -12,6 +12,9 @@ services:
   web:
     build: .
     command: gunicorn --bind 0.0.0.0:8000 backend.wsgi
+    volumes:
+      - ./backend/static:/usr/src/app/backend/static
+      - ./media/static:/usr/src/app/media/static
     expose:
       - 8000
     environment:
@@ -28,6 +31,9 @@ services:
       - postgres
   nginx:
     build: ./nginx
+    volumes:
+      - ./backend/static:/usr/src/app/backend/static
+      - ./media/static:/usr/src/app/media/static
     ports:
       - 1337:80
     depends_on:

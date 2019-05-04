@@ -18,4 +18,6 @@ if [ -n "$SEED_DB" ]; then
   python3 manage.py migrate
 fi
 
+python3 manage.py collectstatic --no-input --clear
+
 exec "$@"
