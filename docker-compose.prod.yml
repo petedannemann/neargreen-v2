@@ -11,14 +11,11 @@ services:
       - POSTGRES_DBNAME=postgis_prod
   web:
     build: .
-    command: gunicorn --chdir /usr/src/app backend.wsgi:application --bind 0.0.0.0:8000
-    volumes:
-      - ./backend/:/usr/src/app/backend
-    ports:
-      - 8000:8000
+    command: gunicorn --bind 0.0.0.0:8000 backend.wsgi
+    expose:
+      - 8000
     environment:
       - SECRET_KEY=please_change_me
-      - DJANGO_SETTINGS_MODULE=backend.settings.prod
       - SQL_ENGINE=django.contrib.gis.db.backends.postgis
       - SQL_DATABASE=postgis_prod
       - SQL_USER=postgres
@@ -29,3 +26,9 @@ services:
       - SEED_DB
     depends_on:
       - postgres
+  nginx:
+    build: ./nginx
+    ports:
+      - 1337:80
+    depends_on:
+      - web
