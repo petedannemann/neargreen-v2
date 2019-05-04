@@ -8,22 +8,24 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASS=postgres
-      - POSTGRES_DBNAME=postgis
+      - POSTGRES_DBNAME=postgis_prod
   web:
     build: .
-    command: python3 /usr/src/app/manage.py runserver 0.0.0.0:8000
+    command: gunicorn --chdir /usr/src/app backend.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - ./backend/:/usr/src/app/backend
     ports:
       - 8000:8000
     environment:
       - SECRET_KEY=please_change_me
+      - DJANGO_SETTINGS_MODULE=backend.settings.prod
       - SQL_ENGINE=django.contrib.gis.db.backends.postgis
-      - SQL_DATABASE=postgis
+      - SQL_DATABASE=postgis_prod
       - SQL_USER=postgres
       - SQL_PASSWORD=postgres
       - SQL_HOST=postgres
       - SQL_PORT=5432
       - DATABASE=postgres
+      - SEED_DB
     depends_on:
       - postgres

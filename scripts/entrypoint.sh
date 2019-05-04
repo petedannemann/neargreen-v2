@@ -13,7 +13,9 @@ then
     echo "PostgreSQL started"
 fi
 
-python3 manage.py flush --no-input
-python3 manage.py migrate
+if [ -n "$SEED_DB" ]; then
+  python3 manage.py flush --no-input
+  python3 manage.py migrate
+fi
 
 exec "$@"

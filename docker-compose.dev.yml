@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: kartoza/postgis:11.0-2.5
+    volumes:
+      - ./postgis-data:/var/lib/postgresql
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASS=postgres
+      - POSTGRES_DBNAME=postgis
+  web:
+    build: .
+    command: python3 /usr/src/app/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./backend/:/usr/src/app/backend
+    ports:
+      - 8000:8000
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=please_change_me
+      - SQL_ENGINE=django.contrib.gis.db.backends.postgis
+      - SQL_DATABASE=postgis
+      - SQL_USER=postgres
+      - SQL_PASSWORD=postgres
+      - SQL_HOST=postgres
+      - SQL_PORT=5432
+      - DATABASE=postgres
+      - SEED_DB=true
+    depends_on:
+      - postgres
