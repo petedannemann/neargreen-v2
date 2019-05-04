@@ -8,6 +8,8 @@ then
       sleep 0.1
     done
 
+    # Give the database time to initialize
+    sleep 10
     echo "PostgreSQL started"
 fi
 
