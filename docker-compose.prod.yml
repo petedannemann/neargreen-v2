@@ -9,6 +9,7 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASS=postgres
       - POSTGRES_DBNAME=postgis_prod
+    restart: always
   web:
     build: .
     command: gunicorn --bind 0.0.0.0:8000 backend.wsgi
@@ -27,6 +28,7 @@ services:
       - SQL_PORT=5432
       - DATABASE=postgres
       - SEED_DB
+    restart: always
     depends_on:
       - postgres
   nginx:
@@ -35,6 +37,7 @@ services:
       - ./backend/static:/usr/src/app/backend/static
       - ./media/static:/usr/src/app/media/static
     ports:
-      - 1337:80
+      - 80:80
+    restart: always
     depends_on:
       - web
