@@ -39,6 +39,12 @@ $ docker-compose -f docker-compose.prod.yml build
 $ SEED_DB=true SECRET_KEY=secretkey docker-compose -f docker-compose.prod.yml up
 ```
 
+## Deploy Frontend to Github Pages
+
+```bash
+$ source deploy_frontend.sh
+```
+
 ## URL Routes
 
 `/` Index, displays all stores
