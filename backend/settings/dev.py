@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.gis',
     # Third Party
+    'corsheaders',
     'rest_framework',
     'rest_framework_gis',
     'rest_framework.authtoken',
@@ -53,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.urls'
