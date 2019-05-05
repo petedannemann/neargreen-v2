@@ -9,4 +9,4 @@ from .dev import *
 
 DEBUG = False
 # Set to your Domain here (eg. 'django-vue-template-demo.herokuapp.com')
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1',]
