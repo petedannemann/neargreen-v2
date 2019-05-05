@@ -36,7 +36,7 @@ $ yarn serve
 ```bash
 $ docker-compose -f docker-compose.prod.yml build
 # The first time, seed the database, after that don't include that env var
-$ SEED_DB=true docker-compose -f docker-compose.prod.yml up
+$ SEED_DB=true SECRET_KEY=secretkey docker-compose -f docker-compose.prod.yml up
 ```
 
 ## URL Routes

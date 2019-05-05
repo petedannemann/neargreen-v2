@@ -8,6 +8,9 @@ from .dev import *
 ############
 
 DEBUG = False
+
+SECRET_KEY = os.environ.get('SECRET_KEY')
+
 # Set to your Domain here (eg. 'django-vue-template-demo.herokuapp.com')
 ALLOWED_HOSTS = ['*']
 

@@ -18,7 +18,6 @@ services:
       - 8000:8000
     environment:
       - DEBUG=1
-      - SECRET_KEY=please_change_me
       - SQL_ENGINE=django.contrib.gis.db.backends.postgis
       - SQL_DATABASE=postgis
       - SQL_USER=postgres

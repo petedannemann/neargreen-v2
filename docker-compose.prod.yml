@@ -19,7 +19,7 @@ services:
     expose:
       - 8000
     environment:
-      - SECRET_KEY=please_change_me
+      - SECRET_KEY
       - SQL_ENGINE=django.contrib.gis.db.backends.postgis
       - SQL_DATABASE=postgis_prod
       - SQL_USER=postgres
