@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/neargreen-v2
+permissions:
+  - object: /
+    pattern: '**'
+    owner: ubuntu
+hooks:
+  AfterInstall:
+    - location: /home/ubuntu/neargreen-v2/deploy_backend.sh
+      runas: ubuntu

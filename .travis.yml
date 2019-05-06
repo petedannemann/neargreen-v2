@@ -1,4 +1,5 @@
 language: python
+sudo: required
 python:
   - '3.6'
 
@@ -13,3 +14,14 @@ before_install:
 install: pip install -r requirements.txt
 
 script: python manage.py test
+
+deploy:
+  - provider: codedeploy
+    revision_type: github
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    application: neargreen
+    deployment_group: neargreen
+    region: us-east-1
+    on:
+      branch: master
