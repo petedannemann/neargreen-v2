@@ -9,5 +9,5 @@ permissions:
     owner: ubuntu
 hooks:
   AfterInstall:
-    - location: /home/ubuntu/neargreen-v2/deploy_backend.sh
+    - location: deploy_backend.sh
       runas: ubuntu
